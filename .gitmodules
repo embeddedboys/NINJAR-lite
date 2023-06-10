@@ -1,0 +1,3 @@
+[submodule "tests/c100s_kicad"]
+	path = tests/c100s_kicad
+	url = https://gitee.com/jensenhua/c100s_kicad
