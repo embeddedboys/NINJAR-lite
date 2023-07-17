@@ -14,7 +14,11 @@ repo : [https://github.com/emmbeddedboys/project_template](https://github.com/em
 
 <!-- A short introduction to the project -->
 
-Introducing the **Project Template**
+
+<p align="center"><strong>NINJAR (NINJAR Is Not Just A Reader)</strong> is a e-book reader, but even more than that.</p>
+
+
+<p align="center">Introducing the <strong>NINJAR-lite</strong> 是基于全志F1C100s设计的精简版本，正因为有集成度如此高的Soc，才使得设备做的如此小巧 (35mm x 43mm)。</p>
 
 
 <h2 align="center">
