@@ -2,6 +2,10 @@
     <span>NINJAR-lite</span>
 </h1>
 
+<h1 align="center">
+    <span>项目开发中，敬请期待！</span>
+</h1>
+
 [[ 中文 ]](README.md) [[ English ]](README.en.md)
 
 项目官网 : [https://embeddedboys.github.io/NINJAR-lite](https://embeddedboys.github.io/NINJAR-lite)
@@ -11,7 +15,7 @@
 <!-- 这里可以放项目的预览图 -->
 
 <div align="center">
-<img src="./assets/3D_f1c100s_core.png" height="320" width="320">
+<img src="./assets/3D_f1c100s_core.png" height="256" width="256">
 <img src="./assets/3D_NINJAR_1.png" height="512" width="512">
 
 <strong>项目底板</strong>
