@@ -1,9 +1,9 @@
-site_name: Project Template
-site_url: https://embeddedboys.github.io/project_template/
-site_description: offical site of Project Template
-site_author: nothing yet
+site_name: NINJAR-lite
+site_url: https://embeddedboys.github.io/NINJAR-lite/
+site_description: offical site of NINJAR-lite
+site_author: embeddedboys
 
-repo_url: https://github.com/embeddedboys/project_template
+repo_url: https://github.com/embeddedboys/NINJAR-lite
 theme:
   name: null
   custom_dir: 'cinder'
