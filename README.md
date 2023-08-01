@@ -12,7 +12,7 @@
 
 <!-- 这里可以放项目的预览图 -->
 <div align="center">
-<img src="./assets/product_preview.png" height="512">
+<img src="./assets/product_preview.png" width="900">
 </div>
 
 <div align="center">
