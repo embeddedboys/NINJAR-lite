@@ -29,29 +29,55 @@
 ### SPL
 [`SPL：如何添加一个 Image Loader`](uboot/spl_image_loader.md) </br>
 
-[`uboot：如何添加一个command`]() </br>
-[`uboot：如何编写一个驱动`]() </br>
+[`uboot: 如何添加一个command`]() </br>
+[`uboot: 如何编写一个驱动`]() </br>
 
 ## <h2>linux</h2>
 ### <h3>内核开发</h3>
-[`linux内核：神奇的initcall调用`](linux/amazing_initcall.md) </br>
-[`linux内核：reboot & poweroff 流程修改`]() </br>
-[`linux内核：添加一个系统调用`]() </br>
-[`linux内核：中断流程`]() </br>
+[`linux内核: 神奇的initcall调用`](linux/amazing_initcall.md) </br>
+[`linux内核: reboot & poweroff 流程修改`]() </br>
+[`linux内核: 添加一个系统调用`]() </br>
+[`linux内核: 中断流程`]() </br>
 
 ### <h3>内核接口</h3>
-[`linux驱动：`]
+[`linux内核接口: ioctl`] </br>
+[`linux内核接口: procfs`] </br>
+[`linux内核接口: sysfs`] </br>
+[`linux内核接口: 中断 interrupt`] </br>
+[`linux内核接口: 等待队列 waitqueue`] </br>
+[`linux内核接口: 工作队列 workqueue`] </br>
+[`linux内核接口: 链表 link list`] </br>
+[`linux内核接口: 内核线程 kernel thread`] </br>
+[`linux内核接口: 小任务 tasklet`] </br>
+[`linux内核接口: 自旋锁 spinlock`] </br>
+[`linux内核接口: 互斥体 mutex`] </br>
+[`linux内核接口: 原子量 atom`] </br>
+[`linux内核接口: 定时器 timer`] </br>
+[`linux内核接口: 完成 completion`] </br>
+
+### <h3>驱动接口</h3>
+[`linux驱动接口: poll`] </br>
+[`linux驱动接口: e-poll`] </br>
+[`linux驱动接口: select`] </br>
+[`linux驱动接口: softirq`] </br>
+[`linux驱动接口: threaded irq`] </br>
 
 ### <h3>驱动开发</h3>
-[`linux驱动：编写一个 cpufreq 驱动`]() </br>
-[`linux驱动：编写一个 字符设备驱动`]() </br>
-[`linux驱动：编写一个 Misc设备驱动`]() </br>
-[`linux驱动：编写一个 led 驱动`]() </br>
-[`linux驱动：编写一个 按键 驱动`]() </br>
-[`linux驱动：编写一个 I2C 控制器驱动`]() </br>
-[`linux驱动：编写一个 SPI 控制器驱动`]() </br>
-[`linux驱动：编写一个 DMA 控制器驱动`]() </br>
-[`linux驱动：编写一个 FrameBuffer 驱动`]() </br>
+[`linux驱动: 编写一个 cpufreq 驱动`]() </br>
+[`linux驱动: 编写一个 字符设备驱动`]() </br>
+[`linux驱动: 编写一个 Misc设备驱动`]() </br>
+[`linux驱动: 编写一个 led 驱动`]() </br>
+[`linux驱动: 编写一个 按键 驱动`]() </br>
+
+[`linux驱动: 编写一个 I2C 控制器驱动`]() </br>
+[`linux驱动: 编写一个 I2C 设备驱动`]() </br>
+
+[`linux驱动: 编写一个 SPI 控制器驱动`]() </br>
+[`linux驱动: 编写一个 SPI 设备驱动`]() </br>
+
+[`linux驱动: 编写一个 DMA 控制器驱动`]() </br>
+[`linux驱动: 编写一个 FrameBuffer 设备驱动`]() </br>
+[`linux驱动: 编写一个 USB 设备驱动`]() </br>
 
 ## <h2>rootfs 文件系统</h2>
 ### <h3>Raw</h3>
