@@ -10,14 +10,14 @@ theme:
   locale: en
 
 nav:
-    - Home: README.md
-    - Get Started: getstarted.md
-    - Documentations:
-      - 'hardware': hardware/index.md
-      - 'software': software/index.md
-    - About:
+    - 主页: README.md
+    - 快速上手: getstarted.md
+    - 文档:
+      - '硬件': hardware/index.md
+      - '软件': software/index.md
+    - 关于:
         - 'Credits': credits.md
-        - 'License': license.md
-        - 'Release Notes': releasenote.md
+        - '许可证': license.md
+        - '更新说明': releasenote.md
         - 'FAQs': FAQs.md
-    - Thanks: thanks.md
+    - 致谢: thanks.md
