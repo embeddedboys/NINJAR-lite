@@ -19,7 +19,9 @@
 
 | 设施 | 型号 |
 | ---  | --- |
-| `NINJAR-lite` | `F1C200s ARM9 单核 64MB DDR1`
+| `NINJAR-lite` | `F1C200s ARM9 单核 64MB DDR1` |
+| `Linux` | 6.4.0 |
+| `uboot` | v2023.07 |
 
 > <p align="center">传送门</p>
 
@@ -34,6 +36,12 @@
 
 ### 进阶
 [`使用jlink调试程序`](../default.md)</br>
+
+## <h2>Bring Up</h2>
+[`Bring Up: 如何适配主线linux`](../default.md) </br>
+[`Bring Up: 如何适配主线uboot`](../default.md) </br>
+[`Bring Up: 如何适配主线buildroot`](../default.md) </br>
+[`Bring Up: 如何适配主线yocto`](../default.md) </br>
 
 ## <h2>uboot</h2>
 ### SPL
@@ -160,12 +168,16 @@
 
 ### <h3>debian</h3>
 [`使用debootstrap构建debian根文件系统`](rootfs/debian/debootstrap_usage.md)</br>
+[`使用multistrap构建emdebian文件系统`](../default.md) </br>
 
 ### <h3>打包</h3>
 [`手动: 将固件打包成SPI-Nor格式`](../default.md) </br>
 [`手动: 将固件打包成SPI-Nand格式`](../default.md) </br>
 [`手动: 将固件打包成sdcard/eMMC格式`](../default.md) </br>
 
+## <h2>调试</h2>
+[`qemu`]() </br>
+
 ## <h2>烧录</h2>
 
-[`烧录: 通过g_mass_storage驱动烧写板上flash`](../default.md) </br>
+[`烧录: 通过USB模拟板上Flash为大容量存储设备进行固件烧录`](../default.md) </br>
