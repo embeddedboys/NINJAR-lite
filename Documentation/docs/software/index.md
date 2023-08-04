@@ -9,7 +9,7 @@
 
 | 设施 | 型号 |
 | ---  | --- |
-| NINJAR-lite | F1C200s ARM9 单核 64MB DDR1
+| `NINJAR-lite` | `F1C200s ARM9 单核 64MB DDR1`
 
 > <p align="center">传送门</p>
 
@@ -23,7 +23,7 @@
 [`初始化SPI: 连接更多的设备`](../default.md) </br>
 
 ### 进阶
-使用
+[`使用jlink调试程序`](../default.md)</br>
 
 ## <h2>uboot</h2>
 ### SPL
@@ -36,11 +36,8 @@
 
 ### <h3>应用开发</h3>
 
-[`linux应用开发: C : 零长度数组`]
-
-[`linux应用开发: LVGL : 移植`]
-
-[`linux应用开发: Rust : 环境搭建`]
+[`linux应用开发: LVGL : 移植`](../default.md) </br>
+[`linux应用开发: Rust : 环境搭建`](app/rust_setup.md) </br>
 
 ### <h3>内核开发</h3>
 [`linux内核开发: 神奇的initcall调用`](linux/amazing_initcall.md) </br>
@@ -72,6 +69,12 @@
 [`linux驱动接口: threaded irq`](../default.md) </br>
 
 ### <h3>驱动适配</h3>
+[`linux驱动适配: i2c: iio: bmp280`](../default.md) </br>
+
+[`linux驱动适配: spi: w5500`](../default.md) </br>
+
+[`linux驱动适配: i2s: `](../default.md) </br>
+
 [`linux驱动适配: fbtft: ssd1306`](../default.md) </br>
 [`linux驱动适配: fbtft: st7735r`](../default.md) </br>
 [`linux驱动适配: fbtft: st7789v`](../default.md) </br>
