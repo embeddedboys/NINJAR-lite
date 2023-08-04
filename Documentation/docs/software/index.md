@@ -1,5 +1,15 @@
 # <h1 align="center">软件文档</h1>
 
+目录
+----------------------
+
+- [前言](#前言)
+- [裸机](#裸机)
+- [uboot](#uboot)
+- [linux](#linux)
+- [rootfs](#rootfs)
+- [烧录](#烧录)
+
 ## 前言
 
 本文将通过若干个实验，帮助读者快速掌握嵌入式Linux BSP开发基本知识</br>
@@ -38,6 +48,8 @@
 
 [`linux应用开发: LVGL : 移植`](../default.md) </br>
 [`linux应用开发: Rust : 环境搭建`](app/rust_setup.md) </br>
+[`linux应用开发: 通过 i2c-dev 节点访问设备`](app/i2c-dev.md) </br>
+[`linux应用开发: v4l2 数据获取流程`](app/v4l2.md) </br>
 
 ### <h3>内核开发</h3>
 [`linux内核开发: 神奇的initcall调用`](linux/amazing_initcall.md) </br>
@@ -61,6 +73,24 @@
 [`linux内核接口: 定时器 timer`](../default.md) </br>
 [`linux内核接口: 完成 completion`](../default.md) </br>
 
+### <h3>内核配置</h3>
+[`linux内核配置: USB声卡驱动`](linux/sound_card.md) </br>
+
+### <h3>内核子系统</h3>
+[`Clock 子系统`]() </br>
+[`Interrupt 子系统`]() </br>
+[`电源管理 子系统`]() </br>
+[`GPIO 子系统`]() </br>
+[`Pinctrl 子系统`]() </br>
+[`Display 子系统`]() </br>
+[`V4L2 子系统`]() </br>
+[`ALSA 子系统`]() </br>
+[`Input 子系统`]() </br>
+[`I2C 子系统`]() </br>
+[`SPI 子系统`]() </br>
+[`IIO 子系统`]() </br>
+[`Regmap 子系统`]() </br>
+
 ### <h3>驱动接口</h3>
 [`linux驱动接口: poll`](../default.md) </br>
 [`linux驱动接口: e-poll`](../default.md) </br>
@@ -77,9 +107,12 @@
 
 [`linux驱动适配: fbtft: ssd1306`](../default.md) </br>
 [`linux驱动适配: fbtft: st7735r`](../default.md) </br>
-[`linux驱动适配: fbtft: st7789v`](../default.md) </br>
+[`linux驱动适配: fbtft: st7789v`](linux/driver/fbtft_st7789v.md) </br>
 [`linux驱动适配: fbtft: ssd1327`](../default.md) </br>
 [`linux驱动适配: fbtft: nv3030b`](../default.md) </br>
+[`linux驱动适配: sun4i-lradc-keys`](linux/driver/sun4i-lradc-keys.md) </br>
+[`linux驱动适配: rtl8188eus`](linux/driver/rtl8188eus.md) </br>
+[`linux驱动适配: USB Gadget g_ether`](linux/driver/usb_gadget_ether.md) </br>
 
 ### <h3>驱动开发</h3>
 [`linux驱动开发: 编写一个 cpufreq 驱动`](../default.md) </br>
@@ -101,12 +134,18 @@
 ### <h3>电源管理</h3>
 [`linux电源管理: regulator子系统`](../default.md) </br>
 
-## <h2>rootfs 文件系统</h2>
+### <h3>杂项</h3>
+[`linux杂项: 命令行邮箱开发环境配置`](linux/misc/contributor.md) </br>
+[`linux杂项: 向社区贡献代码`](linux/misc/contributor.md) </br>
+[`linux杂项: 修改控制台字体`](linux/misc/console_font.md) </br>
+[`linux杂项: 修改控制台光标行为`](linux/misc/console_cursor.md) </br>
+
+## <h2>rootfs</h2>
 ### <h3>Raw</h3>
-[`rootfs: jffs2 的使用`](rootfs/ubifs_usage.md) </br>
-[`rootfs: UBIFS 的使用`](rootfs/ubifs_usage.md) </br>
-[`rootfs: SquashFS 的使用`](rootfs/ubifs_usage.md) </br>
-[`rootfs: overlayfs 的使用`](rootfs/ubifs_usage.md) </br>
+[`rootfs: jffs2 的使用`](../default.md) </br>
+[`rootfs: UBIFS 的使用`](rootfs/raw/ubifs_usage.md) </br>
+[`rootfs: SquashFS 的使用`](rootfs/raw/squashfs_usage.md) </br>
+[`rootfs: overlayfs 的使用`](../default.md) </br>
 
 ### <h3>Buildroot</h3>
 [`Buildroot: 常用开发操作`](../default.md) </br>
@@ -115,8 +154,12 @@
 [`Yocto: 什么是Yocto？`](../default.md) </br>
 [`Yocto: 新建一个Yocto工程`](../default.md) </br>
 [`Yocto: 如何在现有的工程上开发`](../default.md) </br>
-[`Yocto: 如何添加一个layer`](../default.md) </br>
+[`Yocto: 如何添加一个layer`](rootfs/yocto/yocto_new_layer.md) </br>
 [`Yocto: 如何编写一个Recipe`](../default.md) </br>
+[`Yocto: 修改SDK环境加载脚本中的flags`](rootfs/yocto/yocto_sdk_flags.md)
+
+### <h3>debian</h3>
+[`使用debootstrap构建debian根文件系统`](rootfs/debian/debootstrap_usage.md)</br>
 
 ### <h3>打包</h3>
 [`手动: 将固件打包成SPI-Nor格式`](../default.md) </br>

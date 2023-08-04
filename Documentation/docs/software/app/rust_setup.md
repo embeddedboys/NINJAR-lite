@@ -78,6 +78,23 @@ rustup default stable-x86_64-pc-windows-gnu
 
 ### MacOS
 
+测试
+-----------------------------
+```shell
+PS E:\tests\rust> cargo new hello
+     Created binary (application) `hello` package
+    
+PS E:\tests\rust> cd .\hello\
+PS E:\tests\rust\hello> cargo build
+   Compiling hello v0.1.0 (E:\tests\rust\hello)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.74s
+
+PS E:\tests\rust\hello> cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target\debug\hello.exe`
+Hello, world!
+```
+
 学习
 -----------------------------
 
