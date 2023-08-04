@@ -1,3 +1,6 @@
 [submodule "software/ninjar-lite-bsp"]
 	path = software/ninjar-lite-bsp
 	url = https://github.com/ninjar-lite/ninjar-lite-bsp
+[submodule "software/ninjar-lite-app"]
+	path = software/ninjar-lite-app
+	url = https://github.com/ninjar-lite/ninjar-lite-app
