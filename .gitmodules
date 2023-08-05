@@ -10,3 +10,6 @@
 [submodule "software/suniv_drivers"]
 	path = software/suniv_drivers
 	url = https://github.com/AllwinnerSuniv/suniv_drivers.git
+[submodule "software/suniv-yocto"]
+	path = software/suniv-yocto
+	url = https://github.com/AllwinnerSuniv/suniv-yocto.git
