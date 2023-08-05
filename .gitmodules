@@ -7,3 +7,6 @@
 [submodule "software/suniv_usb_boot"]
 	path = software/suniv_usb_boot
 	url = https://github.com/AllwinnerSuniv/suniv_usb_boot
+[submodule "software/suniv_drivers"]
+	path = software/suniv_drivers
+	url = https://github.com/AllwinnerSuniv/suniv_drivers.git
