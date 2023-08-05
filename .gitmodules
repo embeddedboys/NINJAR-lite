@@ -4,3 +4,6 @@
 [submodule "software/ninjar-lite-app"]
 	path = software/ninjar-lite-app
 	url = https://github.com/ninjar-lite/ninjar-lite-app
+[submodule "software/suniv_usb_boot"]
+	path = software/suniv_usb_boot
+	url = https://github.com/AllwinnerSuniv/suniv_usb_boot
