@@ -4,10 +4,11 @@
 
 默认发货配置：
 
+- NINJAR-lite 外壳套件 x 1
 - NINJAR-lite 底板 x 1
 - NINJAR-lite 核心板 x 1
+- NINJAR-lite OLED 屏幕 x 1
 - 450 mAh 锂电池
-- oled 屏幕 x 1
 
 可选购配件：
 
