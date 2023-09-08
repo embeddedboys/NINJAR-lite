@@ -1,5 +1,5 @@
 <h1 align="center">
-    <span>项目开发中，敬请期待！</span>
+    <span>项目开发中。。。</span>
 </h1>
 
 [[ 中文 ]](README.md) [[ English ]](README.en.md)
