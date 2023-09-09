@@ -4,7 +4,7 @@
 目录
 ----------------------
 
-- [名词解释](#)
+- [名词解释](#名词解释)
 - [写在前面](#写在前面)
 - [启动流程](#启动流程)
 - [实现](#实现)
@@ -12,6 +12,7 @@
 - [文件系统]
 - [打包烧录]
 - [优化思路](#优化思路)
+- [基准测试](#基准测试)
 - [更多](#更多)
 - [参考资料](#参考资料)
 
@@ -34,9 +35,9 @@
 
 其实就是当时我从主线上master直接搞过来的，基本就是现在最新状态
 
-我要教你如何从零构建一个完整的可从spi-nand启动的镜像
+如何从零构建一个完整的可从spi-nand启动的镜像？
 
-可以说这是一份教程，也可以说是一次记录，只针对像我一样准备第一次着手处理类似问题的小白。
+可以说这是一份教程，也可以说是一次记录
 
 ## 启动流程
 
@@ -226,7 +227,7 @@ SPL_LOAD_IMAGE_METHOD("FEL", 0, BOOT_DEVICE_BOARD, spl_board_load_image);
 SPL_LOAD_IMAGE_METHOD("sunxi SPI-NAND", 0, BOOT_DEVICE_NAND, spl_spi_nand_load_image);
 ```
 
-看到这里我们大概了解了，怎么去实现一个自定义的`spl loader`了。我知道你很急，但是先不要急，本文章的`实现`章节会有相应细节。
+看到这里我们大概了解了，怎么去实现一个自定义的`spl loader`了。本文章的`实现`章节会有相应细节，我们继续看往下流程。
 
 所以我假设你已经实现了从`spi-nand`启动的loader，接着往下看。`boot_from_devices`调用完成以后，经过一堆东西，来到函数`board_init_r`最底下
 ```c
@@ -973,23 +974,199 @@ SPL_LOAD_IMAGE_METHOD("sunxi SPI-NAND", 0, BOOT_DEVICE_NAND, spl_spi_nand_load_i
 所以这个启动流程还是有很多优化空间的，比如如下几个部分
 
 1. SPI的时钟。我只给了SPI 3MHz的速率，跟BootROM中的一致，所以你可以试着提高下这个速度，也许会读的更快
-2. 程序里可能有些没必要的环节，可以优化掉
-3. 如果空间足够大，就不要压缩固件了，解压也会消耗掉一部分时间，但不会太多
-4. 暂时没想到，以后再说吧
+2. uboot 设备树里 spi节点设置的速度，也会影响读flash的速度
+3. 程序里可能有些没必要的环节，可以优化掉
+4. 如果空间足够大，就不要压缩固件了，解压也会消耗掉一部分时间，但不会太多
+5. 暂时没想到，以后再说吧
+
+## 基准测试
+
+### SPI速率
+SPI的父时钟来自于200MHz的AHB总线，可通过调整分频系数来控制SPI控制器的主时钟
+```c
+
+```
+
+我们使用如下方法统计耗时
+```c
+#define TIMER_CLOCK		(24 * 1000 * 1000)
+#define TICKS_PER_HZ		(TIMER_CLOCK / CONFIG_SYS_HZ)
+#define TICKS_TO_HZ(x)		((x) / TICKS_PER_HZ)
+unsigned long ts = get_timer(0);
+unsigned long te = get_timer(0);
+
+printk("cost : %ld (tick), %ld (ms)", te - ts, TICKS_TO_HZ((te - ts) * 1000));
+```
+| 分频 | 速率 | 耗时 |
+| --- | --- | --- |
+| DIV_64 | 3MHz  | cost : 1918 (tick), 79 (ms) |
+| DIV_32 | 6MHz  | cost : 1918 (tick), 79 (ms) |
+| DIV_4 | 50MHz  | cost : 1918 (tick), 79 (ms) |
+
+结论，SPI速率对spl加载uboot无太大影响，微乎其微。
 
 ## 更多
 
-### 有关读Winbond W25N01G的
+> #### W25N01G的读操作流程
 
-### 有关全志 F1C100s SPI裸机通信的
+W25N01G normal 读模式下，需要先将page加载到器件内部data buffer，然后再发送读指令，从data buffer中获取数据。
+然后加载下一页，反复。还有一种连续读方式，可以一次性读出整个page，但是这个片子的SPI RX FIFO没有那么大。
+```c
+static ssize_t spi0_write_then_read(struct sunxi_spi *spi,
+                                    const void *txbuf, u32 n_tx,
+                                    void *rxbuf, u32 n_rx,
+                                    unsigned delay)
+{
+    int      i;
+    int      timeout    = 10;
+    unsigned real_delay = 200;
+    ssize_t  len        = 0;
+    ssize_t  skip_bytes = 0;
+    u8       *txbuf8 = (u8 *)txbuf;
+    u8       *rxbuf8 = (u8 *)rxbuf;
+
+    ulong spi_bc_reg   = to_sunxi_spi_reg(spi, bc_reg);
+    ulong spi_tc_reg   = to_sunxi_spi_reg(spi, tc_reg);
+    ulong spi_bcc_reg  = to_sunxi_spi_reg(spi, bcc_reg);
+    ulong spi_rx_reg   = to_sunxi_spi_reg(spi, rx_reg);
+    ulong spi_tx_reg   = to_sunxi_spi_reg(spi, tx_reg);
+    ulong spi_ctl_reg  = to_sunxi_spi_reg(spi, ctl_reg);
+    ulong spi_fifo_reg = to_sunxi_spi_reg(spi, fifo_reg);
+
+    if (delay > 0)
+        real_delay = delay;
+
+    /* Burst counter (total bytes) */
+    writel(n_tx + n_rx, spi_bc_reg);
+    /* Transfer counter (bytes to send) */
+    writel(n_tx, spi_tc_reg);
+
+    if (spi->is_sun6i)
+        writel(n_tx, spi_bcc_reg);
+
+    for (i = 0; i < n_tx; i++)
+        writeb((u8)txbuf8[i], spi_tx_reg);
+
+    /* Start the data transfer */
+    setbits_le32(spi_ctl_reg, spi->spi_ctl_xch_bitmask);
+    udelay(real_delay);
+
+    /* Wait until everything is received in the RX FIFO */
+    for (;;) {
+        if ((readl(spi_fifo_reg) & 0x0f) == (n_rx - 1))
+            break;
+
+        if (timeout-- < 0)
+            break;
+    }
+
+    /* Skip bytes */
+    for (skip_bytes = n_tx; skip_bytes--;)
+        readb(spi_rx_reg);
+
+    /* if only need to be write */
+    if (n_rx <= 0)
+        return 0;
+
+    while (n_rx-- > 0) {
+        len++;
+        *rxbuf8++ = readb(spi_rx_reg);
+    }
+
+    return (len == n_rx) ? -1 : len;
+}
+
+static ssize_t
+spi_nand_load_page_op(struct sunxi_spi *spi, unsigned page)
+{
+    u8 txbuf[] = { 
+        SPI_NAND_RD_PAGE_DATA,
+        0x00,   /* dummy clock */
+        (u8)(page >> 8), 
+        (u8)(page),
+    };  
+    return spi0_write_then_read(spi, txbuf, sizeof(txbuf),
+                                NULL, 0, 500);
+}
+
+static ssize_t
+spi_nand_read_from_cache_op(struct sunxi_spi *spi, unsigned column,
+                            void *rxbuf, size_t len)
+{
+    u8 txbuf[] = { 
+        SPI_NAND_RD_DATA,
+        (u8)(column >> 8), 
+        (u8)(column),
+        0x00,   /* dummy clock */
+    };  
+
+    return spi0_write_then_read(spi, txbuf, sizeof(txbuf), rxbuf, len, 0); 
+}     
+```
+
+> #### 全志 F1C100s SPI裸机通信的
+
+第一步就是开时钟这些。比较关键的就是发送接收，下面是些寄存器相关的操作
+
+SPI_MBC_REG (SPI Burst Counter Register)寄存器，里面存的是 （发 + 收）字节的总和
+```c
+    /* Burst counter (total bytes) */
+    writel(n_tx + n_rx, spi_bc_reg);
+```
+SPI_TCR_REG (SPI Transfer Control Register)，这里面需要存入发送的字节数
+```c
+    /* Transfer counter (bytes to send) */
+    writel(n_tx, spi_tc_reg);
+```
+
+SPI_BCC_REG (SPI Burst Control Register)， sun6i变体还要将发送字节数写入该寄存器
+```c
+    if (spi->is_sun6i)
+        writel(n_tx, spi_bcc_reg);
+```
+
+SPI_TXD_REG (SPI TX Data Register)， 将要发送的字节依次写入该寄存器。数量不应超过fifo长度。
+```c
+    for (i = 0; i < n_tx; i++)
+        writeb((u8)txbuf8[i], spi_tx_reg);
+```
+
+SPI_TCR_REG (SPI Transfer Control Register)，通过置位该寄存器的第31位，触发传输流程
+![image](https://img2023.cnblogs.com/blog/2605173/202308/2605173-20230810151058237-67062592.png)
+
+```c
+    /* Start the data transfer */
+    setbits_le32(spi_ctl_reg, spi->spi_ctl_xch_bitmask);
+    udelay(real_delay);
+```
+
+SPI_FSR_REG (SPI FIFO Status Register)，该寄存器低8位表示RX FIFO中接收的字节数，最大64 bytes
+```c
+    /* Wait until everything is received in the RX FIFO */
+    for (;;) {
+        if ((readl(spi_fifo_reg) & 0xff) == (n_rx - 1))
+            break;
+
+        if (timeout-- < 0)
+            break;
+    }
+```
+
+因为控制器内部原因，需要跳过一部分RX寄存器中的无效值。
+```c
+    /* Skip bytes */                                                                                                                                                         
+    for (skip_bytes = n_tx; skip_bytes--;)
+        readb(spi_rx_reg);
+```
+
 
 ## 参考资料
-[F1C100S-BOOTROM与SPL阶段](https://www.cnblogs.com/yanye0xff/p/16341719.html)</br>
-[V3s SPI NAND u-boot @openwrt](https://whycan.com/t_3123.html)</br>
+[F1C100S-BOOTROM与SPL阶段](https://www.cnblogs.com/yanye0xff/p/16341719.html)
+[V3s SPI NAND u-boot @openwrt](https://whycan.com/t_3123.html)
 [V3s/S3/f1c100s通过USB启动Linux,并把SD NAND/TF卡挂载为U盘, 可以dd或Win32DiskImager任烧写](https://whycan.com/t_2449.html#p19694)
 
 <h2 align="center">
-    <img src="../../assets/048-boy-next.png" width="10%" alt="logo" />
+	<img src="https://img2023.cnblogs.com/blog/2605173/202306/2605173-20230630172026689-623565333.png" width="10%" alt="embeddedboys logo" />
 </h2>
 <h2 align="center">
     <a href="https://embeddedboys.github.io/">embeddedboys</a> 献上

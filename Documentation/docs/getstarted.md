@@ -4,22 +4,23 @@
 
 默认发货配置：
 
-- NINJAR-lite 外壳套件 x 1
-- NINJAR-lite 底板 x 1
-- NINJAR-lite 核心板 x 1
-- NINJAR-lite OLED 屏幕 x 1
-- 450 mAh 锂电池
+- 安装工具包 x 1
+- 外壳套件 x 1
+- 底板 x 1
+- 核心板 x 1
+- OLED 屏幕 x 1
+- 450 mAh 锂电池 x 1
 
 可选购配件：
 
-- embeddedboys USB转串口模块
+- USB转串口模块
 
 可能需要自己准备的配件：
 
 - USB转串口模块
 - USB Type-C 数据线 x 1
 - USB Type-C OTG转接头 x 1
-- 键盘、鼠标
+- 键盘、鼠标等输入设备
 
 `NINJAR-lite` 支持从如下存储介质启动：
 
