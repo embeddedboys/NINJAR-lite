@@ -1,4 +1,4 @@
-[![(Script) Discord Activity Badge](https://badgen.net/badge/Playing%20Game/Visual%20Studio%20Code%2C%203%20minutes%20elapsed.?color=61d800&labelColor=00cd90&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
+[![(Script) Discord Activity Badge](https://badgen.net/badge/Online/stay%20creative%21?color=61d800&labelColor=61d800&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
 [![Discord Rich Presence Activity Badge](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/discord_activity.yml/badge.svg?branch=main&event=schedule)](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/discord_activity.yml)
 
 
