@@ -1,5 +1,6 @@
 [![(Script) Discord Activity Badge](https://badgen.net/badge/Playing%20Game/Visual%20Studio%20Code%2C%2012%20minutes%20elapsed.?color=61d800&labelColor=00cd90&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
 [![Discord Rich Presence Activity Badge](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/discord_activity.yml/badge.svg)](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/discord_activity.yml)
+[![build docs](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/blank.yml/badge.svg)](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/blank.yml)
 
 <h1 align="center">
     <img src="assets/048-boy-next.png" width="5%" alt="embeddedboys logo" />
