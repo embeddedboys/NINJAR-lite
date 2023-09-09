@@ -4,7 +4,7 @@
     
 </h1>
 
-<div align="center">
+<!-- <div align="center">
 <img src="https://img.shields.io/github/stars/embeddedboys/NINJAR-lite
 ">
 <img src="https://img.shields.io/github/repo-size/embeddedboys/NINJAR-lite
@@ -15,7 +15,12 @@
 ">
 <img src="https://img.shields.io/github/license/embeddedboys/NINJAR-lite
 ">
-</div>
+</div> -->
+![badge](https://img.shields.io/github/stars/embeddedboys/NINJAR-lite)
+![badge](https://img.shields.io/github/repo-size/embeddedboys/NINJAR-lite)
+![badge](https://img.shields.io/github/last-commit/iotahydrae/NINJAR-lite/main)
+![badge](https://img.shields.io/github/commit-activity/t/embeddedboys/NINJAR-lite)
+![badge](https://img.shields.io/github/license/embeddedboys/NINJAR-lite)
 
 [[ 中文 ]](README.md) [[ English ]](README.en.md)
 
