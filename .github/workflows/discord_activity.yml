@@ -17,3 +17,6 @@ jobs:
         with:
           DISCORD_USER_ID: ${{ secrets.DISCORD_USER_ID }}  
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        env:
+          DISCORD_USER_ID: ${{ secrets.DISCORD_USER_ID }}  
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
