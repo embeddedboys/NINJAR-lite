@@ -1,5 +1,3 @@
-[![(Script) Discord Activity Badge](https://badgen.net/badge/Online/stay%20creative%21?color=61d800&labelColor=61d800&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
-
 <h1 align="center">
     <img src="assets/048-boy-next.png" width="5%" alt="embeddedboys logo" />
     <span>项目开发中。。。</span>
