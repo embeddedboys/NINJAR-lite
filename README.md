@@ -6,18 +6,6 @@
     
 </h1>
 
-<!-- <div align="center">
-<img src="https://img.shields.io/github/stars/embeddedboys/NINJAR-lite
-">
-<img src="https://img.shields.io/github/repo-size/embeddedboys/NINJAR-lite
-">
-<img src="https://img.shields.io/github/last-commit/iotahydrae/NINJAR-lite/main
-">
-<img src="https://img.shields.io/github/commit-activity/t/embeddedboys/NINJAR-lite
-">
-<img src="https://img.shields.io/github/license/embeddedboys/NINJAR-lite
-">
-</div> -->
 ![badge](https://img.shields.io/github/stars/embeddedboys/NINJAR-lite)
 ![badge](https://img.shields.io/github/repo-size/embeddedboys/NINJAR-lite)
 ![badge](https://img.shields.io/github/last-commit/iotahydrae/NINJAR-lite/main)
@@ -107,11 +95,12 @@
 玩得开心！</br></br>
 干杯,</br>
 iotah </br></br>
-<img alt="Static Badge" src="https://img.shields.io/badge/🍺-embeddedboys-blue">
+
 </p>
 
 <h2 align="center">
-    <img src="assets/048-boy-next.png" width="10%" alt="embeddedboys logo" />
+    <img src="assets/048-boy-next.png" width="10%" alt="embeddedboys logo" /> </br>
+    <img alt="Static Badge" src="https://img.shields.io/badge/🍺-embeddedboys-blue">
 </h2>
 <h2 align="center">
     <a href="https://embeddedboys.github.io/">embeddedboys</a> 献上
