@@ -1,5 +1,5 @@
 [![(Script) Discord Activity Badge](https://badgen.net/badge/Playing%20Game/Visual%20Studio%20Code%2C%2012%20minutes%20elapsed.?color=61d800&labelColor=00cd90&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
-[![Discord Rich Presence Activity Badge](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/discord_activity.yml/badge.svg)](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/discord_activity.yml)
+[![Discord Rich Presence Activity Badge](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/discord_activity.yml/badge.svg?branch=main&event=schedule)](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/discord_activity.yml)
 [![build docs](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/blank.yml/badge.svg?branch=main&event=push)](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/blank.yml)
 [![pages-build-deployment](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/pages/pages-build-deployment)
 
