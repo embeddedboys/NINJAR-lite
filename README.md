@@ -1,4 +1,5 @@
 [![(Script) Discord Activity Badge](https://badgen.net/badge/Discord%20User/Online?color=61d800&labelColor=434343&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
+[![(Script) Busy + CustomActivity](https://badgen.net/badge/Currently%20Busy/Visual%20Studio%20Code,%20Editing%20README.md:115:124%20%28187%29/yellow?icon=discord&labelColor=red)](https://github.com/embeddedboys/NINJAR-lite)
 
 <h1 align="center">
     <img src="assets/048-boy-next.png" width="5%" alt="embeddedboys logo" />
