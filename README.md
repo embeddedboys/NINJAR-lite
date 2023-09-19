@@ -1,4 +1,4 @@
-[![(Script) Discord Activity Badge](https://badgen.net/badge/Playing%20Game/Visual%20Studio%20Code%2C%2033%20minutes%20elapsed.?color=61d800&labelColor=00cd90&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
+[![(Script) Discord Activity Badge](https://badgen.net/badge/Playing%20Game/Visual%20Studio%20Code%2C%2044%20minutes%20elapsed.?color=61d800&labelColor=00cd90&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
 
 <h1 align="center">
     <img src="assets/048-boy-next.png" width="5%" alt="embeddedboys logo" />
