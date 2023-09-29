@@ -60,12 +60,12 @@ Buck, 40uA, 2.5-5.5V, 1.0A, 1.5MHz
 | 开关频率 | 1.2MHz |
 
 #### 典型应用
-![image](../../assets/sgm6603/sgm6603.png)
+![image](/assets/power/sgm6603.png)
 
 > 根据手册中的说明，本器件具有防倒灌功能，所以不需要在Vout处加肖特基二极管
 
 #### 输入电压对效率的影响(5V)
-![image](../../assets/sgm6603/chart1.png)
+![image](/assets/power/chart1.png)
 
 根据图表得知，输入电压大于3.7V时，效率在60%以下，但暂时没有进行验证。
 

@@ -36,14 +36,15 @@
 - DC-DC的关断电流
 - 10K上拉电阻的电流
 
+
 <div align="center">
-<img src="assets/core_power_supply.png" >
+<img src="/assets/power/core_power_supply.png" >
 </div>
 
 我们的DC-DC芯片，型号为JW5211，通过查阅手册得知电气参数如下
 
 <div align="center">
-<img src="assets/jw5211_ec.png" >
+<img src="/assets/power/jw5211_ec.png" >
 </div>
 
 那么三颗DC-DC漏电量范围为：0.3uA - 3uA
