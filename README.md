@@ -1,4 +1,4 @@
-[![(Script) Discord Activity Badge](https://badgen.net/badge/Currently%20Playing/League%20of%20Legends%2C%20%E5%8F%AC%E5%94%A4%E5%B8%88%E5%B3%A1%E8%B0%B7%20%28%E6%8E%92%E4%BD%8D%E8%B5%9B%29%2C%2024%20minutes%20elapsed.?color=61d800&labelColor=df1473&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
+[![(Script) Discord Activity Badge](https://badgen.net/badge/Playing%20Game/Just%20started.?color=61d800&labelColor=00cd90&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
 
 <h1 align="center">
     <img src="assets/048-boy-next.png" width="5%" alt="embeddedboys logo" />
