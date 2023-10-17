@@ -1,4 +1,4 @@
-[![(Script) Discord Activity Badge](https://badgen.net/badge/Playing%20Game/Just%20started.?color=61d800&labelColor=00cd90&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
+[![(Script) Discord Activity Badge](https://badgen.net/badge/Discord%20User/Offline?color=545454&labelColor=434343&icon=discord)](https://github.com/embeddedboys/NINJAR-lite)
 
 <h1 align="center">
     <img src="assets/048-boy-next.png" width="5%" alt="embeddedboys logo" />
@@ -37,11 +37,11 @@
 
 <p align="center"><strong>NINJAR (NINJAR Is Not Just A Reader)</strong> 作为一款掌上阅读器，但远远不止这样</p>
 
-<p align="center">正如我们演示的那样，通过外接无线键盘，它可以当作一台掌上终端来使用</p>
+<p align="center">正如我们演示的那样，通过外接无线键盘，它可以当作一台迷你终端来使用</p>
 
-<p align="center">通过开源的的设计、软件资料，这个设备的形态可以被重新定义，这得益于模块化的设计</p>
+<p align="center">通过开源的的设计资料，这个设备的形态可以被重新定义，这得益于模块化的设计</p>
 
-<p align="center">这个项目正处于开发阶段，我们正在尝试加入更多的创客功能，以支持模块拓展</p>
+<p align="center">这个项目正处于开发阶段，我们正在尝试加入更多的创客功能</p>
 
 > <p align="center"><strong>NINJAR-lite</strong> 是基于全志 F1C100s 设计的精简版本</p>
 
@@ -91,10 +91,12 @@
 
 ## <h2 align="center">致谢</h2>
 <!-- 对该项目做出贡献的组织或个人 -->
+
+
 <p align="center">
 玩得开心！</br></br>
 干杯,</br>
-iotah </br></br>
+Zheng </br></br>
 
 </p>
 
@@ -105,3 +107,5 @@ iotah </br></br>
 <h2 align="center">
     <a href="https://embeddedboys.github.io/">embeddedboys</a> 献上
 </h2>
+
+本文档由 [@mkdocs](https://www.mkdocs.org/) 强力驱动

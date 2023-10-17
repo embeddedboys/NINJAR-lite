@@ -22,7 +22,6 @@
 
 <img src="../assets/wb89-01.jpg" width="30%"> </br>
 
-
 ## 问题
 
 板子上电后，无法扫描到任何mmc设备。加载esp8089 wifi驱动，没有任何反应
@@ -35,13 +34,13 @@
 
 我准备了这样一个 SPI 接口的 TF 卡模块
 
-<img src="/assets/wifi/tf_module.jpg" width="50%">
+<img src="../assets/tf_module.jpg" width="50%">
 
 > 这里要说明一下，TF 卡是可以工作于SDIO或者SPI模式下的
 
 TF卡的引脚定义如下图所示
 
-![TF_Pinout](/assets/wifi/image.png)
+![TF_Pinout](../assets/image.png)
 
 
 将 WIFI 模组通过热风枪取下，模块与板子连接好后，接入tf卡，看到串口有如下信息打印
@@ -68,7 +67,7 @@ caps       caps2      clock      err_state  err_stats  ios        mmc0:e624
 将WIFI模组飞线，如下图所示
 
 <div align="center">
-<img src="/assets/wifi/module_wiring.jpg" width="50%"> </br>
+<img src="../assets/module_wiring.jpg" width="50%"> </br>
 </div>
 
 连接至板子的过程中，我发现原理图居然画错了
@@ -76,26 +75,26 @@ caps       caps2      clock      err_state  err_stats  ios        mmc0:e624
 <div align="center">
 </div>
 
-<img src="/assets/wifi/wb89-01_wrong_symbol.png" width="80%">
+<img src="../assets/wb89-01_wrong_symbol.png" width="80%">
 
 > 图中标注的地方
 
 通过查看说明书中的pinout
 
 <div align="center">
-<img src="/assets/wifi/wb89-01_pinout.png" width="50%">
+<img src="../assets/wb89-01_pinout.png" width="50%">
 </div>
 
 修正后的原理图如下图所示
 
 <div align="center">
-<img src="/assets/wifi/wb89-01_right_symbol.png" width="80%">
+<img src="../assets/wb89-01_right_symbol.png" width="80%">
 </div>
 
 来到PCB这边，现在的连接如下图所示
 
 <div align="center">
-<img src="/assets/wifi/wb89-01_wrong_pcb.png" width="50%">
+<img src="../assets/wb89-01_wrong_pcb.png" width="50%">
 </div>
 
 可以看到8、9号焊盘和13、14画反了，还好这边的焊盘是对称的，实验还可以进行下去。
@@ -103,7 +102,7 @@ caps       caps2      clock      err_state  err_stats  ios        mmc0:e624
 我们先继续等会再修改PCB。 将WIIF模组飞线连接好后，如下图所示
 
 <div align="center">
-<img src="/assets/wifi/module_board_wiring.jpg" width="100%">
+<img src="../assets/module_board_wiring.jpg" width="100%">
 </div>
 
 
