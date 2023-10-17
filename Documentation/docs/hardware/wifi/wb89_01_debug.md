@@ -20,7 +20,7 @@
 | 开发板 | f1c100s_base |
 | WIFI模组 | WB89-01 |
 
-<img src="./assets/wb89-01.jpg" width="30%"> </br>
+<img src="../assets/wb89-01.jpg" width="30%"> </br>
 
 
 ## 问题
