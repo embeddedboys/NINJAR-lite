@@ -12,30 +12,47 @@
 ## 名词解释
 | 名词 | 解释 |
 | --- | --- |
-| DC-DC | |
-| Buck | |
-| Boost | |
+| [DC-DC](https://en.wikipedia.org/wiki/DC-to-DC_converter) | DC-to-DC converter 直流转直流转换器 |
+| [Buck](https://en.wikipedia.org/wiki/Buck_converter) | 降压型转换器 |
+| [Boost](https://en.wikipedia.org/wiki/Boost_converter) | 升压型转换器 |
 
 ## 写在前面
 
 本文将通过分析手册、PCB实验，挑选合适的DCDC器件
 
+我们选择了一些市面上常见的升压、降压型DCDC器件来进行测试，如下
+
 ## 降压型
 
 ### JW5211
-Buck, 40uA~60uA, 2.5-5.5V, 1.2A, 1.5MHz
-
-| 项目 | 数值 |
+|  | |
 | --- | --- |
-| 输入电容 |  |
-| 输出电容 |  |
-| 电感 |  |
+| 拓扑结构 | 降压式 Buck |
+| 输入电压 | 2.5V~5.5V	|
+| 输出电压 | 	|
+| 输出电流(最大值) | 1.2A |
+| 静态电流 | 40uA~60uA |
+| 开关频率 | 1.5MHz |
 
 ### SY8088AAC
-使能控制， 超低功耗40uA， 1A同步DCDC， 1.5M高频 ，软启动 ，100%占空比， SOT23-5 
+|  | |
+| --- | --- |
+| 拓扑结构 | 降压式 Buck |
+| 输入电压 | 2.5V~5.5V	|
+| 输出电压 | 	|
+| 输出电流(最大值) | 1A |
+| 静态电流 | 40uA |
+| 开关频率 | 1.5MHz |
 
 ### RY3408
-Buck, 40uA, 2.5-5.5V, 1.0A, 1.5MHz
+|  | |
+| --- | --- |
+| 拓扑结构 | 降压式 Buck |
+| 输入电压 | 2.5V~5.5V	|
+| 输出电压 | 	|
+| 输出电流(最大值) | 1A |
+| 静态电流 | 40uA |
+| 开关频率 | 1.5MHz |
 
 ## 升压型
 
@@ -53,21 +70,25 @@ Buck, 40uA, 2.5-5.5V, 1.0A, 1.5MHz
 
 |  | |
 | --- | --- |
-| 拓扑结构 | 升压式	 |
+| 拓扑结构 | 升压式	Boost |
 | 输入电压 | 900mV~5.5V	|
 | 输出电压 | 2.5V~5.5V	|
 | 输出电流(最大值) | |
 | 开关频率 | 1.2MHz |
 
 #### 典型应用
-![image](/assets/power/sgm6603.png)
+<div align="center">
+<img src="../assets/sgm6603.png">
+</div>
 
-> 根据手册中的说明，本器件具有防倒灌功能，所以不需要在Vout处加肖特基二极管
+> <p align="center"> 根据手册中的说明，本器件具有防倒灌功能，所以不需要在Vout处加肖特基二极管</p>
 
 #### 输入电压对效率的影响(5V)
-![image](/assets/power/chart1.png)
+<div align="center">
+<img src="../assets/chart1.png">
+</div>
 
-根据图表得知，输入电压大于3.7V时，效率在60%以下，但暂时没有进行验证。
+> <p align="center"> 根据图表得知，输入电压大于3.7V时，效率在60%以下，但暂时没有进行验证。 </p>
 
 #### 电感的选择
 > A boost converter normally requires two main passive 
