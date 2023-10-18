@@ -14,8 +14,6 @@
 [![build docs](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/blank.yml/badge.svg?branch=main&event=push)](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/blank.yml)
 [![pages-build-deployment](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/embeddedboys/NINJAR-lite/actions/workflows/pages/pages-build-deployment)
 
-[[ 中文 ]](README.md) [[ English ]](README.en.md)
-
 `项目官网` : [`https://embeddedboys.github.io/NINJAR-lite`](https://embeddedboys.github.io/NINJAR-lite)
 
 `文档链接` : [`https://embeddedboys.github.io/NINJAR-lite`](https://embeddedboys.github.io/NINJAR-lite)
