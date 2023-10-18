@@ -31,11 +31,13 @@
 <img src="./assets/strcuture.gif" height="512">
 </div>
 
-## <h2 align="center">介绍</h2>
+</br>
+
 
 <!-- 有关项目的简短介绍 -->
+> <h2 align="center"><strong>NINJAR (NINJAR Is Not Just A Reader)</strong></h2> 
 
-<p align="center"><strong>NINJAR (NINJAR Is Not Just A Reader)</strong> 作为一款掌上阅读器，但远远不止这样</p>
+> <h3 align="center">作为一款掌上阅读器，但远远不止这样</h2>
 
 <p align="center">正如我们演示的那样，通过外接无线键盘，它可以当作一台迷你终端来使用</p>
 
@@ -76,13 +78,13 @@
 | 内存       | 32/64MB DDR1 256MHz              |
 | 存储       | 128/256MB SPI-Nand Flash              |
 | 屏幕       | 1.28英寸 16灰阶 OLED 128x128         |
-| 网络       | 2.4G WiFi AP                  |
-| 定位       | GP-02 GPS/BDS 模组            |
+| 网络       | ESP8089/RTL8723BS 2.4G WiFi AP (选配)                 |
+| 定位       | GP-02 GPS/BDS 模组 （选配）           |
 | 控制       | 拨轮编码器、按键               |
-| 传感器     | AHT20                         |
+| 传感器     | AHT20 温湿度传感器                         |
 | 电池       | 450mAh                        |
-| 充放电 | TP4056 MOSFET                    |
-| 接口 | 2x5 Pin Header with I2C1,I2S, SH1.0mm 4Pin I2C0, USB 2.0 OTG, Dual Role |
+| 充放电 | TP4056 + MOSFET                    |
+| 接口 | 2x5 Pin Header with I2C1,I2S, SH1.0mm 4Pin I2C0, USB 2.0 OTG |
 
 ## <h2 align="center">许可证</h2>
 
