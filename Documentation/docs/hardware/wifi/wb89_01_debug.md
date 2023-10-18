@@ -47,8 +47,17 @@ TF卡的引脚定义如下图所示
 <img src="../assets/image.png" width="80%">
 </div>
 
+需要将模块上的引脚与SDIO的接口连接起来，例如:
 
-将 WIFI 模组通过热风枪取下，模块与板子连接好后，接入tf卡，看到串口有如下信息打印
+- DO --> DAT0
+- VSS --> VSS
+- VDD --> VDD
+- DI --> CMD
+- SCLK --> CLK
+
+我们让其工作于sdio 1bit-mode下
+
+将 WIFI 模组通过热风枪取下，接入tf卡，看到串口有如下信息打印
 ```c
 # [   77.847103] mmc0: new high speed SDHC card at address e624
 [   77.859029] mmcblk0: mmc0:e624 SU04G 3.69 GiB 
@@ -63,7 +72,7 @@ TF卡的引脚定义如下图所示
 caps       caps2      clock      err_state  err_stats  ios        mmc0:e624
 ```
 
-得到如下结论: 
+#### 结论
 
 - 板子上的mmc接口工作正常
 
@@ -120,6 +129,11 @@ caps       caps2      clock      err_state  err_stats  ios        mmc0:e624
 [    1.688583] mmc0: queuing unknown CIS tuple 0x1a [01 01 00 02 07] (5 bytes)
 [    1.700617] mmc0: queuing unknown CIS tuple 0x1b [c1 41 30 30 ff ff ff ff] (8 bytes)
 ```
+#### 结论
+
+- 原理图符号画错，导致PCB板与模组的连接出现问题，模组没有上电。
+
+
 
 我们接着进度，尝试加载我修改适配6.x内核的esp8089驱动，不出所料，果然崩了😂，看日志是个空指针错误
 ```c
@@ -241,10 +255,6 @@ Segmentation fault
 ```
 
 接下来就是软件层面的问题了，我们放到`驱动修改适配`章节来细说吧
-
-### 结论
-
-- 原理图符号画错，导致PCB板与模组的连接出现问题，模组没有上电。
 
 ## 驱动修改适配
 

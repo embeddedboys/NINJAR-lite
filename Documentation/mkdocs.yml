@@ -4,7 +4,7 @@ site_description: offical site of NINJAR-lite
 site_author: embeddedboys
 
 repo_url: https://github.com/embeddedboys/NINJAR-lite
-edit_uri: blob/main/Documentation/docs/
+edit_uri: 'blob/main/Documentation/docs/'
 theme:
   name: null
   custom_dir: 'cinder'

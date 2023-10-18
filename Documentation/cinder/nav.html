@@ -51,7 +51,7 @@
                     {%- if 'search' in config['plugins'] and not config.theme.disable_nav_search %}
                     <li>
                         <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                            <i class="fas fa-search"></i> Search
+                            <i class="fas fa-search"></i> 搜索
                         </a>
                     </li>
                     {%- endif %}
@@ -61,12 +61,12 @@
                     {%- if page and (page.next_page or page.previous_page) and not config.theme.disable_nav_previous_next %}
                     <li {% if not page.previous_page %}class="disabled"{% endif %}>
                         <a rel="prev" {% if page.previous_page %}href="{{ page.previous_page.url|url }}"{% endif %}>
-                            <i class="fas fa-arrow-left"></i> Previous
+                            <i class="fas fa-arrow-left"></i> 前一个
                         </a>
                     </li>
                     <li {% if not page.next_page %}class="disabled"{% endif %}>
                         <a rel="next" {% if page.next_page %}href="{{ page.next_page.url|url }}"{% endif %}>
-                            Next <i class="fas fa-arrow-right"></i>
+                            下一个 <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
                     {%- endif %}
@@ -77,13 +77,13 @@
                     <li>
                         <a href="{{ page.edit_url }}">
                             {%- if config.repo_name == 'GitHub' -%}
-                            <i class="fab fa-github"></i> Edit on {{ config.repo_name }}
+                            <i class="fab fa-github"></i> 在 {{ config.repo_name }} 上编辑
                             {%- elif config.repo_name == 'Bitbucket' -%}
-                            <i class="fab fa-bitbucket"></i> Edit on {{ config.repo_name }}
+                            <i class="fab fa-bitbucket"></i> 在 {{ config.repo_name }} 上编辑
                             {%- elif config.repo_name == 'GitLab' -%}
-                            <i class="fab fa-gitlab"></i> Edit on {{ config.repo_name }}
+                            <i class="fab fa-gitlab"></i> 在 {{ config.repo_name }} 上编辑
                             {%- else -%}
-                            Edit on {{ config.repo_name }}
+                            在 {{ config.repo_name }} 上编辑
                             {%- endif -%}
                         </a>
                     </li>
