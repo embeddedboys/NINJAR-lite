@@ -31,7 +31,6 @@ theme:
         # icon: material/toggle-switch
         name: Switch to light mode
   features:
-      - navigation.instant
       - search.suggest
       - search.highlight
       - search.share
@@ -49,7 +48,7 @@ nav:
     - 文档:
       - '硬件': hardware/index.md
       - '软件': software/index.md
-      - '开发记录' : dev.md
+    - 开发记录: dev.md
     - 关于:
         - 'Credits': credits.md
         - '许可证': license.md
@@ -98,6 +97,12 @@ plugins:
           build: true
           site_name: "NINJAR-lite"
           nav_translations:
-            Home: Accueil
-            Getting Started: Démarrage Rapide
-            Plugins Compatibility: Compatibilité des plugins
+            主页: Home
+            快速上手: Getting Started
+            配件: Parts
+            文档: Wiki
+            硬件: Hardware
+            软件: Software
+            开发记录: Development Record
+            关于: About
+            致谢: Thank
