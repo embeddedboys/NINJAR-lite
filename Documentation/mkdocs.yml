@@ -1,6 +1,7 @@
 site_name: NINJAR-lite
 site_url: https://embeddedboys.github.io/NINJAR-lite/
 repo_url: https://github.com/embeddedboys/NINJAR-lite
+edit_uri: main/Documentation/docs/
 
 site_description: offical site of NINJAR-lite
 site_author: embeddedboys
@@ -43,14 +44,16 @@ theme:
 
 nav:
     - 主页: README.md
-    - 快速上手: getstarted.md
-    - 配件: modules.md
+    - 快速上手:
+      - '检查': getting-started/check.md
+      - '组装': getting-started/parts.md
+      - '测试': getting-started/test.md
     - 文档:
       - '硬件': hardware/index.md
       - '软件': software/index.md
     - 开发记录: dev.md
     - 关于:
-        - 'Credits': credits.md
+        - '开发人员名单': credits.md
         - '许可证': license.md
         - '更新说明': releasenote.md
         - 'FAQs': FAQs.md
@@ -98,11 +101,14 @@ plugins:
           site_name: "NINJAR-lite"
           nav_translations:
             主页: Home
-            快速上手: Getting Started
+            快速上手: Getting started
             配件: Parts
             文档: Wiki
             硬件: Hardware
             软件: Software
-            开发记录: Development Record
+            开发记录: Development record
             关于: About
+            开发人员名单: Credits
+            许可证: License
+            更新说明: Release Note
             致谢: Thank
