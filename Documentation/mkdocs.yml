@@ -1,14 +1,46 @@
 site_name: NINJAR-lite
 site_url: https://embeddedboys.github.io/NINJAR-lite/
+repo_url: https://github.com/embeddedboys/NINJAR-lite
+
 site_description: offical site of NINJAR-lite
 site_author: embeddedboys
 
-repo_url: https://github.com/embeddedboys/NINJAR-lite
-edit_uri: 'blob/main/Documentation/docs/'
+copyright: Copyright © 2023 embeddedboys
+
 theme:
-  name: null
-  custom_dir: 'cinder'
-  locale: zh
+  name: material
+  language: zh
+  font:
+    code: Roboto Mono
+  # custom_dir: docs/overrides
+  logo:
+    assets/048-boy-next.png
+  palette:
+    - scheme: default
+      accent: green
+      primary: black
+      toggle:
+        icon: material/lightbulb
+        # icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/lightbulb-outline
+        # icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+      - navigation.instant
+      - search.suggest
+      - search.highlight
+      - search.share
+  #   - navigation.expand
+  #   - navigation.indexes
+  #   - navigation.sections
+  #   - navigation.tabs
+  #   - toc.follow
+  #   - toc.integrate
 
 nav:
     - 主页: README.md
@@ -24,3 +56,48 @@ nav:
         - '更新说明': releasenote.md
         - 'FAQs': FAQs.md
     - 致谢: thanks.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://embeddedboys.github.io/NINJAR-lite/
+      name: NINJAR-lite on Github
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+          site_name: "NINJAR-lite"
+        - locale: en
+          name: English
+          build: true
+          site_name: "NINJAR-lite"
+          nav_translations:
+            Home: Accueil
+            Getting Started: Démarrage Rapide
+            Plugins Compatibility: Compatibilité des plugins
