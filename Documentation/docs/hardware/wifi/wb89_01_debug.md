@@ -19,6 +19,7 @@
 | --- | --- |
 | 开发板 | f1c100s_base |
 | WIFI模组 | WB89-01 |
+| linux | 6.5.6
 
 <img src="../assets/wb89-01.jpg" width="30%"> </br>
 
@@ -34,13 +35,17 @@
 
 我准备了这样一个 SPI 接口的 TF 卡模块
 
+<div align="center">
 <img src="../assets/tf_module.jpg" width="50%">
+</div>
 
 > 这里要说明一下，TF 卡是可以工作于SDIO或者SPI模式下的
 
 TF卡的引脚定义如下图所示
 
-![TF_Pinout](../assets/image.png)
+<div align="center">
+<img src="../assets/image.png" width="80%">
+</div>
 
 
 将 WIFI 模组通过热风枪取下，模块与板子连接好后，接入tf卡，看到串口有如下信息打印
@@ -237,10 +242,47 @@ Segmentation fault
 
 接下来就是软件层面的问题了，我们放到`驱动修改适配`章节来细说吧
 
-结论：
+### 结论
 
 - 原理图符号画错，导致PCB板与模组的连接出现问题，模组没有上电。
 
 ## 驱动修改适配
 
-待添加
+我fork了一份 [@al117](https://github.com/al177/esp8089) 移植适配的 esp8089 驱动作为基础 [NINJAR-lite/esp8089_al117](https://github.com/ninjar-lite/esp8089_al177)，经过如下修改，确认不会再加载阶段崩溃了，但是还有问题，我们接着往下看。
+```diff
+diff --git a/esp_mac80211.c b/esp_mac80211.c
+index 8b56c1a..b8ac767 100755
+--- a/esp_mac80211.c
++++ b/esp_mac80211.c
+@@ -790,6 +790,14 @@ static int esp_op_set_tim(struct ieee80211_hw *hw, struct ieee80211_sta *sta,
+ }
+ #endif
+ 
++static void esp_op_wake_tx_queue(struct ieee80211_hw *hw,
++                              struct ieee80211_txq *txq)
++{
++        struct esp_pub *epub = (struct esp_pub *) hw->priv;
++        if (epub)
++             ieee80211_queue_work(hw, &epub->tx_work);
++}
++
+ #if (LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 30))
+ static int esp_op_set_key(struct ieee80211_hw *hw, enum set_key_cmd cmd,
+                           struct ieee80211_vif *vif, struct ieee80211_sta *sta,
+@@ -1936,6 +1944,7 @@ static const struct ieee80211_ops esp_mac80211_ops = {
+         .prepare_multicast = esp_op_prepare_multicast,
+ #endif
+         .configure_filter = esp_op_configure_filter,
++        .wake_tx_queue = esp_op_wake_tx_queue,
+         .set_key = esp_op_set_key,
+         .update_tkip_key = esp_op_update_tkip_key,
+         //.sched_scan_start = esp_op_sched_scan_start,
+```
+
+刚才提到的，虽然不会再加载阶段崩溃了，但是运行了一会儿之后，驱动崩溃了，日志如下：
+```log
+```
+
+推测是因为供电不足问题，网卡中途掉了，那先来排查供电问题。
+
+我在模组的电源输入端，并联的一个大电容，
