@@ -20,22 +20,64 @@
 
 `项目仓库` : [`https://github.com/emmbeddedboys/NINJAR-lite`](https://github.com/emmbeddedboys/NINJAR-lite)
 
+</br>
+
+> <h1 align="center">为自己制作一个微型 Linux 控制台</h1>
+
 <!-- 这里可以放项目的预览图 -->
 <div align="center">
 <img src="./assets/product_preview.png" width="900">
 </div>
 
 <div align="center">
-<img src="./assets/strcuture.gif" height="512">
+<h2><a>Pre-order</a></h2>
 </div>
+
+<!--  -->
+<div align="right">
+</br>
+<h2>主板</h2>
+</div>
+
+<div style="display:flex;">
+<div style="width:400px; margin-right:40px;">
+<img src="./assets/NINJAR_Resources.jpg" width=400 style="float:left;"/>
+</div>
+
+<div style="float:right;">
+<div style="font-size:20px; text-align:center;">NINJAR-lite 提供了许多功能在仅仅35x43mm的尺寸上</div>
+<ul style="font-size:14px;">
+<li> USB OTG </li>
+<li> 滚轮旋转编码器 </li>
+<li> 最大256MB SPI NAND </li>
+<li> AHT20 温湿度传感器 </li>
+<li> TP4056 充电管理IC</li>
+<li> ESP8089 WIFI模组</li>
+<li> 450mAh 锂电池</li>
+<li> 用户按键 </li>
+<li> 支持标准8Pin 3-wire SPI 显示屏 </li>
+</ul>
+</div>
+
+</div>
+<!--  -->
+
+<!-- <div align="center">
+<img src="./assets/strcuture.gif" height="512">
+</div> -->
 
 </br>
 
+<div align="right" style="clear:both;">
+<h2>介绍</h2>
+</div>
 
 <!-- 有关项目的简短介绍 -->
-> <h2 align="center"><strong>NINJAR (NINJAR Is Not Just A Reader)</strong></h2> 
+> <h2 align="center" ><strong>NINJAR (NINJAR Is Not Just A Reader)</strong></h2> 
 
-> <h3 align="center">作为一款掌上阅读器，但远远不止这样</h2>
+> <h3 align="center">设计为阅读器，但不止于此</h2>
+
+<h2 align="center">隆重的向大家介绍 NINJAR-lite</h2>
 
 <p align="center">正如我们演示的那样，通过外接无线键盘，它可以当作一台迷你终端来使用</p>
 
