@@ -41,7 +41,7 @@
 
 <div style="display:flex;">
 <div style="width:300px; margin-right:40px;">
-<img src="./assets/NINJAR_Resources.jpg" width=400 style="float:left;"/>
+<img src="./assets/NINJAR_Resources.jpg" width=300 style="float:left;"/>
 </div>
 
 <div style="float:right;">
@@ -71,7 +71,7 @@
 
 <div style="display:flex;">
 <div style="width:300px; margin-right:40px;">
-<img src="./assets/Core_Resources.jpg" style="float:left;"/>
+<img src="./assets/Core_Resources.jpg" width=300 style="float:left;"/>
 </div>
 
 <div style="float:right;">
@@ -96,7 +96,7 @@
 
 <div style="display:flex;">
 <div style="width:300px; margin-right:40px;">
-<img src="./assets/screen.png" style="float:left;"/>
+<img src="./assets/screen.png" width=300 style="float:left;"/>
 </div>
 
 <div style="float:right;">
