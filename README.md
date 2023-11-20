@@ -30,7 +30,7 @@
 </div>
 
 <div align="center">
-<h2><a>Pre-order</a></h2>
+<h2><a href="https://github.com/embeddedboys/NINJAR-lite">预定</a></h2>
 </div>
 
 <!--  -->
@@ -40,7 +40,7 @@
 </div>
 
 <div style="display:flex;">
-<div style="width:400px; margin-right:40px;">
+<div style="width:300px; margin-right:40px;">
 <img src="./assets/NINJAR_Resources.jpg" width=400 style="float:left;"/>
 </div>
 
@@ -70,7 +70,7 @@
 </div>
 
 <div style="display:flex;">
-<div style="width:600px; margin-right:40px;">
+<div style="width:300px; margin-right:40px;">
 <img src="./assets/Core_Resources.jpg" style="float:left;"/>
 </div>
 
@@ -89,14 +89,14 @@
 <!--  -->
 
 <!--  -->
-<div align="left">
+<div align="right">
 </br>
 <h2>屏幕</h2>
 </div>
 
 <div style="display:flex;">
-<div style="width:400px; margin-right:40px;">
-<img src="./assets/screen.jpg" style="float:left;"/>
+<div style="width:300px; margin-right:40px;">
+<img src="./assets/screen.png" style="float:left;"/>
 </div>
 
 <div style="float:right;">
@@ -122,7 +122,7 @@
 
 </br>
 
-<div align="right" style="clear:both;">
+<div align="left" style="clear:both;">
 <h2>介绍</h2>
 </div>
 
@@ -152,12 +152,6 @@
 ## <h2 align="center">设计</h2>
 
 <!-- 简短的设计过程 -->
-<div align="center">
-<img src="./assets/Core_Resources.jpg" >
-<img src="./assets/NINJAR_Resources.jpg" >
-
-<strong>顶视图</strong>
-</div>
 
 > <p align="center">器件以实物为准</p>
 
