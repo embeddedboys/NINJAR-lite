@@ -69,13 +69,13 @@
 <div style="float:right;">
 <ul style="font-size:14px;">
 <li> USB OTG </li>
-<li> 滚轮旋转编码器 </li>
-<li> 最大256MB SPI NAND </li>
-<li> AHT20 温湿度传感器 </li>
-<li> TP4056 充电管理IC</li>
-<li> ESP8089 WIFI模组</li>
-<li> 450mAh 锂电池</li>
 <li> 用户按键 </li>
+<li> 450mAh 锂电池</li>
+<li> 滚轮旋转编码器 </li>
+<li> ESP8089 WIFI模组</li>
+<li> TP4056 充电管理IC</li>
+<li> AHT20 温湿度传感器 </li>
+<li> 最大256MB SPI NAND </li>
 <li> 支持标准8Pin 3-wire SPI 显示屏 </li>
 </ul>
 </div>
@@ -91,13 +91,12 @@
 </div>
 
 <div style="float:left; margin-right:200px;">
-<!-- <div style="font-size:20px; text-align:center;">F1C100s 核心板</div> -->
 <ul style="font-size:14px;">
-<li> F1C100s ARM9 @900MHz </li>
+<li> F1C100s/F1C200s ARM9 @900MHz </li>
 <li> SIP 32/64MB DDR1 </li>
 <li> IO 管脚全部引出 </li>
-<li> 5V 输入 </li>
 <li> 分立DC-DC供电 </li>
+<li> 5V 输入 </li>
 </ul>
 </div>
 
@@ -124,13 +123,11 @@
 <div style="float:right;">
 <div style="font-size:20px; text-align:center;"></div>
 <ul style="font-size:14px;">
-<li> SSD1327主控 </li>
-<li> uboot、linux驱动支持 </li>
+<li> OLED </li>
 <li> 16灰阶 </li>
 <li> 高对比度 </li>
-<li> OLED </li>
-<li> 5V 输入 </li>
-<li> 分立DC-DC供电 </li>
+<li> SSD1327主控 </li>
+<li> uboot、linux驱动支持 </li>
 </ul>
 </div>
 
