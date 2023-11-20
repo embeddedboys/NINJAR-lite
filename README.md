@@ -62,8 +62,8 @@
 </div>
 
 <div style="display:flex;">
-<div style="width:400px; margin-right:40px;">
-<img src="./assets/NINJAR_Resources.jpg" width=400 style="float:left;"/>
+<div style="width:40%; margin-right:40px;">
+<img src="./assets/NINJAR_Resources.jpg" style="width:100%;"/>
 </div>
 
 <div style="float:right;">
