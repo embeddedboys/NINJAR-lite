@@ -62,6 +62,60 @@
 </div>
 <!--  -->
 
+
+<!--  -->
+<div align="left">
+</br>
+<h2>核心板</h2>
+</div>
+
+<div style="display:flex;">
+<div style="width:600px; margin-right:40px;">
+<img src="./assets/Core_Resources.jpg" style="float:left;"/>
+</div>
+
+<div style="float:right;">
+<div style="font-size:20px; text-align:center;">F1C100s 核心板</div>
+<ul style="font-size:14px;">
+<li> F1C100s ARM9 @900MHz </li>
+<li> SIP 32/64MB DDR1 </li>
+<li> IO 管脚全部引出 </li>
+<li> 5V 输入 </li>
+<li> 分立DC-DC供电 </li>
+</ul>
+</div>
+
+</div>
+<!--  -->
+
+<!--  -->
+<div align="left">
+</br>
+<h2>屏幕</h2>
+</div>
+
+<div style="display:flex;">
+<div style="width:400px; margin-right:40px;">
+<img src="./assets/screen.jpg" style="float:left;"/>
+</div>
+
+<div style="float:right;">
+<div style="font-size:20px; text-align:center;"></div>
+<ul style="font-size:14px;">
+<li> SSD1327主控 </li>
+<li> uboot、linux驱动支持 </li>
+<li> 16灰阶 </li>
+<li> 高对比度 </li>
+<li> OLED </li>
+<li> 5V 输入 </li>
+<li> 分立DC-DC供电 </li>
+</ul>
+</div>
+
+</div>
+<!--  -->
+
+
 <!-- <div align="center">
 <img src="./assets/strcuture.gif" height="512">
 </div> -->
