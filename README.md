@@ -62,7 +62,7 @@
 </div>
 
 <div style="display:flex;">
-<div style="width:40%; margin-right:40px;">
+<div style="width:60%; margin-right:40px;">
 <img src="./assets/NINJAR_Resources.jpg" width=400/>
 </div>
 
@@ -90,12 +90,7 @@
 <h2>核心板</h2>
 </div>
 
-<div style="display:flex;">
-<div style="width:500px; margin-right:40px;">
-<img src="./assets/Core_Resources.jpg" width=500 />
-</div>
-
-<div style="float:left;">
+<div style="float:left; margin-right:200px;">
 <!-- <div style="font-size:20px; text-align:center;">F1C100s 核心板</div> -->
 <ul style="font-size:14px;">
 <li> F1C100s ARM9 @900MHz </li>
@@ -105,6 +100,12 @@
 <li> 分立DC-DC供电 </li>
 </ul>
 </div>
+
+<div style="display:flex;">
+<div style="width:100%;">
+<img src="./assets/Core_Resources.jpg" width=500 />
+</div>
+
 
 </div>
 <!--  -->
@@ -116,7 +117,7 @@
 </div>
 
 <div style="display:flex;">
-<div style="width:300px; margin-right:40px;">
+<div style="width:60%; margin-right:40px;">
 <img src="./assets/screen.png" width=300 />
 </div>
 
