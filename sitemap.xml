@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/FAQs/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/FAQs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/FAQs/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/about/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/about/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/credits/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/credits/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/credits/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/default/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/default/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/default/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/dev/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/dev/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/license/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/license/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/license/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/releasenote/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/releasenote/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/releasenote/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/thanks/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/thanks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/thanks/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/getting-started/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/getting-started/check/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/getting-started/check/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/getting-started/check/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/getting-started/parts/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/getting-started/parts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/getting-started/parts/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/getting-started/test/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/getting-started/test/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/getting-started/test/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/hardware/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/hardware/display/ssd1327/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/display/ssd1327/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/display/ssd1327/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/hardware/input/keys/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/input/keys/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/input/keys/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/hardware/input/rotary_encoder/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/input/rotary_encoder/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/input/rotary_encoder/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/hardware/power/dcdc/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/power/dcdc/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/dcdc/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/hardware/power/ripple/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/power/ripple/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/ripple/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/hardware/power/shutdown_current/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/power/shutdown_current/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/shutdown_current/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/hardware/power/switch/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/power/switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/switch/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/hardware/usb/role_switch/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/usb/role_switch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/usb/role_switch/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/hardware/wifi/wb89_01_debug/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/wifi/wb89_01_debug/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/wifi/wb89_01_debug/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/app/i2c-dev/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/app/i2c-dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/app/i2c-dev/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/app/lvgl_port/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/app/lvgl_port/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/app/lvgl_port/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/app/rust_setup/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/app/rust_setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/app/rust_setup/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/app/v4l2/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/app/v4l2/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/app/v4l2/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/factory/pack/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/factory/pack/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/factory/pack/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/amazing_initcall/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/amazing_initcall/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/amazing_initcall/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/sound_card/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/sound_card/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/sound_card/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/fbtft_ssd1306/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/fbtft_ssd1306/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/fbtft_ssd1306/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/fbtft_st7789v/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/fbtft_st7789v/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/fbtft_st7789v/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/rtl8188eus/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/rtl8188eus/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/rtl8188eus/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/sun4i-lradc-keys/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/sun4i-lradc-keys/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/sun4i-lradc-keys/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/usb_gadget_ether/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/usb_gadget_ether/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/usb_gadget_ether/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/console_cursor/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/console_cursor/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/console_cursor/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/console_font/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/console_font/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/console_font/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/contributor/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/contributor/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/contributor/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/setup_email/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/setup_email/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/setup_email/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/noos/first_blink/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/noos/first_blink/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/noos/first_blink/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/rootfs/debian/debootstrap_usage/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/rootfs/debian/debootstrap_usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/debian/debootstrap_usage/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/rootfs/raw/squashfs_usage/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/rootfs/raw/squashfs_usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/raw/squashfs_usage/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/rootfs/raw/ubifs_usage/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/rootfs/raw/ubifs_usage/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/raw/ubifs_usage/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/rootfs/yocto/yocto_new_layer/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/rootfs/yocto/yocto_new_layer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/yocto/yocto_new_layer/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/rootfs/yocto/yocto_sdk_flags/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/rootfs/yocto/yocto_sdk_flags/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/yocto/yocto_sdk_flags/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/uboot/driver_spi_tft/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/uboot/driver_spi_tft/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/uboot/driver_spi_tft/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/software/uboot/spl_image_loader/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/uboot/spl_image_loader/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/uboot/spl_image_loader/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/FAQs/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/FAQs/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/FAQs/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/about/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/about/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/about/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/credits/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/credits/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/credits/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/default/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/default/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/default/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/dev/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/dev/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/dev/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/license/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/license/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/license/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/releasenote/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/releasenote/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/releasenote/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/thanks/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/thanks/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/thanks/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/getting-started/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/getting-started/check/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/getting-started/check/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/getting-started/check/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/getting-started/parts/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/getting-started/parts/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/getting-started/parts/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/getting-started/test/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/getting-started/test/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/getting-started/test/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/hardware/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/hardware/display/ssd1327/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/display/ssd1327/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/display/ssd1327/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/hardware/input/keys/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/input/keys/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/input/keys/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/hardware/input/rotary_encoder/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/input/rotary_encoder/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/input/rotary_encoder/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/dcdc/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/dcdc/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/power/dcdc/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/ripple/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/ripple/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/power/ripple/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/shutdown_current/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/shutdown_current/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/power/shutdown_current/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/switch/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/power/switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/power/switch/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/hardware/usb/role_switch/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/usb/role_switch/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/usb/role_switch/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/hardware/wifi/wb89_01_debug/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/hardware/wifi/wb89_01_debug/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/hardware/wifi/wb89_01_debug/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/app/i2c-dev/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/app/i2c-dev/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/app/i2c-dev/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/app/lvgl_port/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/app/lvgl_port/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/app/lvgl_port/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/app/rust_setup/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/app/rust_setup/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/app/rust_setup/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/app/v4l2/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/app/v4l2/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/app/v4l2/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/factory/pack/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/factory/pack/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/factory/pack/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/amazing_initcall/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/amazing_initcall/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/amazing_initcall/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/sound_card/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/sound_card/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/sound_card/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/fbtft_ssd1306/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/fbtft_ssd1306/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/fbtft_ssd1306/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/fbtft_st7789v/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/fbtft_st7789v/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/fbtft_st7789v/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/rtl8188eus/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/rtl8188eus/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/rtl8188eus/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/sun4i-lradc-keys/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/sun4i-lradc-keys/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/sun4i-lradc-keys/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/usb_gadget_ether/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/driver/usb_gadget_ether/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/driver/usb_gadget_ether/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/console_cursor/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/console_cursor/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/console_cursor/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/console_font/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/console_font/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/console_font/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/contributor/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/contributor/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/contributor/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/setup_email/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/linux/misc/setup_email/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/linux/misc/setup_email/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/noos/first_blink/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/noos/first_blink/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/noos/first_blink/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/debian/debootstrap_usage/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/debian/debootstrap_usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/rootfs/debian/debootstrap_usage/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/raw/squashfs_usage/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/raw/squashfs_usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/rootfs/raw/squashfs_usage/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/raw/ubifs_usage/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/raw/ubifs_usage/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/rootfs/raw/ubifs_usage/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/yocto/yocto_new_layer/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/yocto/yocto_new_layer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/rootfs/yocto/yocto_new_layer/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/yocto/yocto_sdk_flags/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/rootfs/yocto/yocto_sdk_flags/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/rootfs/yocto/yocto_sdk_flags/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/uboot/driver_spi_tft/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/uboot/driver_spi_tft/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/uboot/driver_spi_tft/"/>
+    </url>
+    <url>
+        <loc>https://embeddedboys.github.io/NINJAR-lite/en/software/uboot/spl_image_loader/</loc>
+        <lastmod>2023-11-20</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://embeddedboys.github.io/NINJAR-lite/en/software/uboot/spl_image_loader/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://embeddedboys.github.io/NINJAR-lite/software/uboot/spl_image_loader/"/>
+    </url>
+</urlset>

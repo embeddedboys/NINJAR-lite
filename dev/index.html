@@ -1,0 +1,1681 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="offical site of NINJAR-lite">
+      
+      
+        <meta name="author" content="embeddedboys">
+      
+      
+        <link rel="canonical" href="https://embeddedboys.github.io/NINJAR-lite/dev/">
+      
+      
+        <link rel="prev" href="../software/">
+      
+      
+        <link rel="next" href="../credits/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.10">
+    
+    
+      
+        <title>开发记录 - NINJAR-lite</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.fad675c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="green">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="NINJAR-lite" class="md-header__button md-logo" aria-label="NINJAR-lite" data-md-component="logo">
+      
+  <img src="../assets/048-boy-next.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            NINJAR-lite
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              开发记录
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9v1Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="amber"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="选择当前语言">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="zh" class="md-select__link">
+              简体中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../en/dev/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/embeddedboys/NINJAR-lite" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="NINJAR-lite" class="md-nav__button md-logo" aria-label="NINJAR-lite" data-md-component="logo">
+      
+  <img src="../assets/048-boy-next.png" alt="logo">
+
+    </a>
+    NINJAR-lite
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/embeddedboys/NINJAR-lite" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    主页
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    快速上手
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            快速上手
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/check/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    检查
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/parts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    组装
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/test/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    测试
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    文档
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            文档
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hardware/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    硬件
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../software/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    软件
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    开发记录
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    开发记录
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      结构设计篇
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      软件篇
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="软件篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ninjar-lite-daemon" class="md-nav__link">
+    <span class="md-ellipsis">
+      ninjar-lite-daemon 业务逻辑
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ninjar-lite-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      ninjar-lite-app 业务逻辑
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ninjar-lite-app_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ninjar-lite-app准备工作
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debian" class="md-nav__link">
+    <span class="md-ellipsis">
+      移植debian
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emdebian" class="md-nav__link">
+    <span class="md-ellipsis">
+      移植emdebian
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slint" class="md-nav__link">
+    <span class="md-ellipsis">
+      移植slint
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcb" class="md-nav__link">
+    <span class="md-ellipsis">
+      PCB设计篇
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PCB设计篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pcb_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      第三版PCB需求
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      设计自己的屏幕板
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      外围模块设计——流水灯
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      服务层适配篇
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="服务层适配篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gpsd" class="md-nav__link">
+    <span class="md-ellipsis">
+      加入gpsd支持
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pps-chrony" class="md-nav__link">
+    <span class="md-ellipsis">
+      通过内核pps驱动 和 chrony 服务实现时间同步
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      底层适配篇
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="底层适配篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2023712" class="md-nav__link">
+    <span class="md-ellipsis">
+      编码器功能测试 2023/7/12
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      用户按键的测试
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nfs-202375" class="md-nav__link">
+    <span class="md-ellipsis">
+      验证NFS文件系统可行性 2023/7/5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gps-202373" class="md-nav__link">
+    <span class="md-ellipsis">
+      解决开发板上gps模块的问题 2023/7/3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usbvbusregulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      usb主机模式，vbus主动供电，内核regulator驱动
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suniv-epd638-202371" class="md-nav__link">
+    <span class="md-ellipsis">
+      suniv-epd驱动在6.3.8内核上的编译 2023/7/1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gps" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试gps模组功能
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64yaffs2" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.4内核适配yaffs2文件系统
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usb" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试USB网络稳定性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a31-i2c" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试A31 I2C驱动可行性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      显示屏相关的步骤
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试其他屏幕的可行性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#led-2023628" class="md-nav__link">
+    <span class="md-ellipsis">
+      用户led的测试 2023/6/28
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nand-flash-2023627" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试nand flash稳定性及性能 2023/6/27
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spi-nand-2023627" class="md-nav__link">
+    <span class="md-ellipsis">
+      解决 spi nand 文件系统问题 2023/6/27
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uboot-splspi-nand-2023624" class="md-nav__link">
+    <span class="md-ellipsis">
+      给uboot spl添加从spi nand启动的功能 2023/6/24
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spi-nanduboot-2023622" class="md-nav__link">
+    <span class="md-ellipsis">
+      重做一份从spi nand启动的uboot、内核、文件系统 2023/6/22
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      电源管理
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ota" class="md-nav__link">
+    <span class="md-ellipsis">
+      OTA升级
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      recovery模式
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yocto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yocto工程搭建
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    关于
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            关于
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../credits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    开发人员名单
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    许可证
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releasenote/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    更新说明
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FAQs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../thanks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    致谢
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      结构设计篇
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      软件篇
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="软件篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ninjar-lite-daemon" class="md-nav__link">
+    <span class="md-ellipsis">
+      ninjar-lite-daemon 业务逻辑
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ninjar-lite-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      ninjar-lite-app 业务逻辑
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ninjar-lite-app_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ninjar-lite-app准备工作
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debian" class="md-nav__link">
+    <span class="md-ellipsis">
+      移植debian
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emdebian" class="md-nav__link">
+    <span class="md-ellipsis">
+      移植emdebian
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slint" class="md-nav__link">
+    <span class="md-ellipsis">
+      移植slint
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcb" class="md-nav__link">
+    <span class="md-ellipsis">
+      PCB设计篇
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PCB设计篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pcb_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      第三版PCB需求
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      设计自己的屏幕板
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      外围模块设计——流水灯
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      服务层适配篇
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="服务层适配篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gpsd" class="md-nav__link">
+    <span class="md-ellipsis">
+      加入gpsd支持
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pps-chrony" class="md-nav__link">
+    <span class="md-ellipsis">
+      通过内核pps驱动 和 chrony 服务实现时间同步
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      底层适配篇
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="底层适配篇">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2023712" class="md-nav__link">
+    <span class="md-ellipsis">
+      编码器功能测试 2023/7/12
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      用户按键的测试
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nfs-202375" class="md-nav__link">
+    <span class="md-ellipsis">
+      验证NFS文件系统可行性 2023/7/5
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gps-202373" class="md-nav__link">
+    <span class="md-ellipsis">
+      解决开发板上gps模块的问题 2023/7/3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usbvbusregulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      usb主机模式，vbus主动供电，内核regulator驱动
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suniv-epd638-202371" class="md-nav__link">
+    <span class="md-ellipsis">
+      suniv-epd驱动在6.3.8内核上的编译 2023/7/1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gps" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试gps模组功能
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#64yaffs2" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.4内核适配yaffs2文件系统
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#usb" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试USB网络稳定性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a31-i2c" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试A31 I2C驱动可行性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      显示屏相关的步骤
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试其他屏幕的可行性
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#led-2023628" class="md-nav__link">
+    <span class="md-ellipsis">
+      用户led的测试 2023/6/28
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nand-flash-2023627" class="md-nav__link">
+    <span class="md-ellipsis">
+      测试nand flash稳定性及性能 2023/6/27
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spi-nand-2023627" class="md-nav__link">
+    <span class="md-ellipsis">
+      解决 spi nand 文件系统问题 2023/6/27
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uboot-splspi-nand-2023624" class="md-nav__link">
+    <span class="md-ellipsis">
+      给uboot spl添加从spi nand启动的功能 2023/6/24
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spi-nanduboot-2023622" class="md-nav__link">
+    <span class="md-ellipsis">
+      重做一份从spi nand启动的uboot、内核、文件系统 2023/6/22
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      电源管理
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ota" class="md-nav__link">
+    <span class="md-ellipsis">
+      OTA升级
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      recovery模式
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yocto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Yocto工程搭建
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="_1"><h1 align="center">开发记录</h1></h1>
+<h2 id="_2">结构设计篇</h2>
+<h2 id="_3">软件篇</h2>
+<h3 id="ninjar-lite-daemon">ninjar-lite-daemon 业务逻辑</h3>
+<p>检测USB热插拔</p>
+<p>切换OTG功能</p>
+<p>向外暴露WEB配置页面</p>
+<p>设置系统、内核层配置</p>
+<h3 id="ninjar-lite-app">ninjar-lite-app 业务逻辑</h3>
+<p>作为前台应用运行，只处理业务，软件形态暂未定义</p>
+<h3 id="ninjar-lite-app_1">ninjar-lite-app准备工作</h3>
+<p>移植lvgl、输入</p>
+<p>移植initcall</p>
+<p>移植lwan, 失败了，完全不知道应该怎么单独拿出来编译</p>
+<p>选择并移植一个优秀log库</p>
+<p>做到这部分的时候，再考虑换Rust写app，因为期间了解了另外一个
+非常优秀的gui框架 slint，同时这也是个学习Rust的极好机会</p>
+<h3 id="debian">移植debian</h3>
+<p>尝试了最新的3个版本debian，即使最老的现行版本，在初始化安装后，文件系统的大小也有将近200MB
+所以需要至少256MB Nand才能放下，感觉有点得不偿失了</p>
+<h3 id="emdebian">移植emdebian</h3>
+<p>尝试移植了下，大小在100MB左右，这个作为一个备选方案</p>
+<h3 id="slint">移植slint</h3>
+<h2 id="pcb">PCB设计篇</h2>
+<h3 id="pcb_1">第三版PCB需求</h3>
+<p>核心板固定螺母位置调整</p>
+<p>用户按键默认上拉</p>
+<p>WIFI模组默认关闭</p>
+<p>线路、铺铜优化</p>
+<h3 id="_4">设计自己的屏幕板</h3>
+<h3 id="_5">外围模块设计——流水灯</h3>
+<h2 id="_6">服务层适配篇</h2>
+<h3 id="gpsd">加入gpsd支持</h3>
+<h3 id="pps-chrony">通过内核pps驱动 和 chrony 服务实现时间同步</h3>
+<h2 id="_7">底层适配篇</h2>
+<h3 id="2023712">编码器功能测试 2023/7/12</h3>
+<p>在等新板子 2023/6/23</p>
+<p>用的内核编码器驱动，正反转都能识别 2023/7/8</p>
+<h3 id="_8">用户按键的测试</h3>
+<p>2023/7/10 用户按键应该给个默认状态，比如上拉，下一版pcb修改</p>
+<h3 id="nfs-202375">验证NFS文件系统可行性 2023/7/5</h3>
+<h3 id="gps-202373">解决开发板上gps模块的问题 2023/7/3</h3>
+<p>焊接问题，另外确定GPS_EN是否需要外部上拉</p>
+<h3 id="usbvbusregulator">usb主机模式，vbus主动供电，内核regulator驱动</h3>
+<h3 id="suniv-epd638-202371">suniv-epd驱动在6.3.8内核上的编译 2023/7/1</h3>
+<p>需要保证内核fb相关内容开启</p>
+<p>另外，6.x版本的内核，对于gpio flag的获取有了变化，对接口进行了更新。</p>
+<h3 id="gps">测试gps模组功能</h3>
+<p>可通过标准tty设备读取gps模块上报内容</p>
+<p>验证GPS_EN脚功能，运行时状态切换。</p>
+<p>GPS_PPS引脚脉冲输出验证</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>2023/6/22 验证了从ttyS2读取报文
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a># cat /dev/ttyS2 
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>$GNGGA,,,,,,0,00,25.5,,,,,,*64
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>$GNGLL,,,,,,V,N*7A
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>$GNGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5,1*01
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>$GNGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5,4*04
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>$GPGSV,1,1,00,0*65
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>$BDGSV,1,1,00,0*74
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>$GNRMC,,V,,,,,,,,,,N,V*37
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>$GNVTG,,,,,,,,,N*2E
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>$GNZDA,,,,,,*56
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>$GPTXT,01,01,01,ANTENNA OK*35
+</code></pre></div>
+<h3 id="64yaffs2">6.4内核适配yaffs2文件系统</h3>
+<p>头大啊，内核打了yaffs2的补丁，编译一堆报错，看起来是新版内核vfs接口改了，应该不会很难搞吧。</p>
+<p>放弃用yaffs2了，用ubifs应该更合适</p>
+<h3 id="usb">测试USB网络稳定性</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>2023/6/22 对usb0配置ip时，注意网关不能与现有网络内冲突
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>64 bytes from 192.168.25.101: seq=485 ttl=64 time=0.504 ms
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>64 bytes from 192.168.25.101: seq=486 ttl=64 time=0.496 ms
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>64 bytes from 192.168.25.101: seq=487 ttl=64 time=0.513 ms
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>64 bytes from 192.168.25.101: seq=488 ttl=64 time=0.509 ms
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>64 bytes from 192.168.25.101: seq=489 ttl=64 time=0.527 ms
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>64 bytes from 192.168.25.101: seq=490 ttl=64 time=0.511 ms
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>64 bytes from 192.168.25.101: seq=491 ttl=64 time=0.512 ms
+</code></pre></div>
+<h3 id="a31-i2c">测试A31 I2C驱动可行性</h3>
+<h3 id="_9">显示屏相关的步骤</h3>
+<p>通过调节对比度的方式，模拟亮度</p>
+<p>适配新版内核 fb_deferred_io</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>2023/6/22 可通过向 /sys/devices/platform/soc/1c06000.spi/spi_master/spi1/spi1.0/gamma 节点中写入0~255来调节亮度，值越大越亮
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>2023/7/1 显示屏ok，新版内核fb改了些东西，我暂时用全刷方式
+</code></pre></div>
+<h3 id="_10">测试其他屏幕的可行性</h3>
+<ul>
+<li>1.3 128x160 st7789v</li>
+<li>1.54 200x200 ssd1681 e-ink</li>
+<li>1.44 128x128 st7735s</li>
+<li>1.54 240x240 st7789v</li>
+</ul>
+<p>只是为了确保替代料的多样性</p>
+<h3 id="led-2023628">用户led的测试 2023/6/28</h3>
+<p>目前通过内核led子系统的trigger功能，将led配置为heartbeat，也可配置为其他trigger，例如与MTD活动联系起来。</p>
+<h3 id="nand-flash-2023627">测试nand flash稳定性及性能 2023/6/27</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>[ 7416.602565] =================================================
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>[ 7416.608455] mtd_speedtest: MTD device: 0
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>[ 7416.612407] mtd_speedtest: MTD device size 134217728, eraseblock size 131072, page size 2048, 4
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>[ 7416.634567] mtd_test: scanning for bad eraseblocks
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>[ 7416.900006] mtd_test: scanned 1024 eraseblocks, 0 are bad
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>[ 7417.664480] mtd_speedtest: testing eraseblock write speed
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>[ 7483.805228] mtd_speedtest: eraseblock write speed is 1981 KiB/s
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>[ 7483.811206] mtd_speedtest: testing eraseblock read speed
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>[ 7524.260132] mtd_speedtest: eraseblock read speed is 3240 KiB/s
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>[ 7525.113086] mtd_speedtest: testing page write speed
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>[ 7592.136201] mtd_speedtest: page write speed is 1955 KiB/s
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>[ 7592.141661] mtd_speedtest: testing page read speed
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>[ 7633.098185] mtd_speedtest: page read speed is 3200 KiB/s
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>[ 7633.953253] mtd_speedtest: testing 2 page write speed
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a> [ 7700.336261] mtd_speedtest: 2 page write speed is 1974 KiB/s
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>[ 7700.341892] mtd_speedtest: testing 2 page read speed
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>[ 7741.086483] mtd_speedtest: 2 page read speed is 3217 KiB/s
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>[ 7741.092029] mtd_speedtest: Testing erase speed
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>[ 7741.950513] mtd_speedtest: erase speed is 153493 KiB/s
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>[ 7741.955782] mtd_speedtest: Testing 2x multi-block erase speed
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>[ 7742.703943] mtd_speedtest: 2x multi-block erase speed is 176553 KiB/s
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a>[ 7742.710515] mtd_speedtest: Testing 4x multi-block erase speed
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a>[ 7743.455312] mtd_speedtest: 4x multi-block erase speed is 177382 KiB/s
+<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a>[ 7743.461816] mtd_speedtest: Testing 8x multi-block erase speed
+<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a>[ 7744.210430] mtd_speedtest: 8x multi-block erase speed is 176466 KiB/s
+<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a>[ 7744.216999] mtd_speedtest: Testing 16x multi-block erase speed
+<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a>[ 7744.970171] mtd_speedtest: 16x multi-block erase speed is 175389 KiB/s
+<a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a>[ 7744.976827] mtd_speedtest: Testing 32x multi-block erase speed
+<a id="__codelineno-3-30" name="__codelineno-3-30" href="#__codelineno-3-30"></a>[ 7745.725682] mtd_speedtest: 32x multi-block erase speed is 176408 KiB/s
+<a id="__codelineno-3-31" name="__codelineno-3-31" href="#__codelineno-3-31"></a>[ 7745.732270] mtd_speedtest: Testing 64x multi-block erase speed
+<a id="__codelineno-3-32" name="__codelineno-3-32" href="#__codelineno-3-32"></a>[ 7746.482609] mtd_speedtest: 64x multi-block erase speed is 176083 KiB/s
+<a id="__codelineno-3-33" name="__codelineno-3-33" href="#__codelineno-3-33"></a>[ 7746.489282] mtd_speedtest: finished
+<a id="__codelineno-3-34" name="__codelineno-3-34" href="#__codelineno-3-34"></a>[ 7746.492824] =================================================
+</code></pre></div>
+<h3 id="spi-nand-2023627">解决 spi nand 文件系统问题 2023/6/27</h3>
+<h3 id="uboot-splspi-nand-2023624">给uboot spl添加从spi nand启动的功能 2023/6/24</h3>
+<h3 id="spi-nanduboot-2023622">重做一份从spi nand启动的uboot、内核、文件系统 2023/6/22</h3>
+<p>uboot可以先用内存启动那个，可以快速测试内核和文件系统，建议在f1c200s上测试，不容易爆内存。</p>
+<p>2023/6/21 uboot已经能够识别spi nand，并且能通过mtd命令操作nand</p>
+<p>2023/6/22 对核心、内存频率进行了测试，核心频率最高只能跑到700MHz左右，内存频率暂时运行在256MHz</p>
+<p>2023/6/22 重新配置内核，加入网络等支持</p>
+<p>2023/6/26 最新修改的uboot，各项参数看起来都正常了，接下来就是要启动完整uboot
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>U-Boot SPL 2023.07-rc4-ninjar-lite-gcd863354e5-dirty (Jun 25 2023 - 11:49:37 -0400)
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>DRAM: 64 MiB
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>size=18, ptr=18, limit=100000: 81d00000
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>==== boot source from BROM: 0xe1a00000
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>Trying to boot from sunxi SPI
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>image magic : 0x56190527
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>image hcrc : 0x3e801d26
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>image name : U-Boot 2023.07-rc4-ninjar-lite-g 
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>spl_parse_legacy_header
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>payload image: U-Boot 2023.07-rc4-ninjar-lite-g  load addr: 0x81700000 size: 415592
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>u-boot name : U-Boot 2023.07-rc4-ninjar-lite-g 
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>         load addr : 0x81700000
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>             entry : 0x81700000
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>         load offt : 0x80000
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>              size : 0x65768
+<a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>&gt;&gt;&gt; spl_image-&gt;boot_device = 0x8
+</code></pre></div></p>
+<h3 id="_11">电源管理</h3>
+<h3 id="ota">OTA升级</h3>
+<h3 id="recovery">recovery模式</h3>
+<p>给recovery内核单独搞一个分区，开机过程检测到用户按键处于按下状态，进入recovery模式</p>
+<h3 id="yocto">Yocto工程搭建</h3>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2023 embeddedboys
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://embeddedboys.github.io/NINJAR-lite/" target="_blank" rel="noopener" title="NINJAR-lite on Github" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.6c14ae12.min.js"></script>
+      
+    
+  </body>
+</html>
