@@ -18,7 +18,7 @@
 
 `文档链接` : [`https://embeddedboys.github.io/NINJAR-lite`](https://embeddedboys.github.io/NINJAR-lite)
 
-`项目仓库` : [`https://github.com/emmbeddedboys/NINJAR-lite`](https://github.com/emmbeddedboys/NINJAR-lite)
+`项目仓库` : [`https://github.com/embeddedboys/NINJAR-lite`](https://github.com/emmbeddedboys/NINJAR-lite)
 
 </br>
 
