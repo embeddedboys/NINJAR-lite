@@ -33,6 +33,28 @@
 <h2><a href="https://github.com/embeddedboys/NINJAR-lite">预定</a></h2>
 </div>
 
+<div align="left" style="clear:both;">
+<h2>介绍</h2>
+</div>
+
+<!-- 有关项目的简短介绍 -->
+> <h3 align="center" ><strong>NINJAR (NINJAR Is Not Just A Reader) 作为阅读器，但不止于此</strong></h3> 
+
+<h3 align="center">隆重的向大家介绍 NINJAR-lite</h3>
+
+<div style="font-size:16px;">
+&nbsp&nbsp&nbsp&nbspNINJAR-lite 是 NINJAR 项目的成本缩减（精简）版本，本项目致力于打造一款百元以内（69？ 79？）的多功能嵌入式 Linux 学习、开发、创作设备。对于这个设备的形态，我们其实没有准确的定义，事实上，这取决于你的想法。正如演示中的那样，通过外接无线键盘，它可以当作一台迷你终端来使用。通过开源的的设计资料，这个设备的形态可以被重新定义，这得益于模块化的设计
+</div>
+
+> <div style="font-size:14px;" align="center">这个项目正处于开发阶段，我们正在尝试加入更多的创客功能</div>
+
+## <h2 align="center">设计</h2>
+<div align="center">
+<img src="./assets/right_view.png" height=512>
+</div>
+
+> <div style="font-size:20px; text-align:center;">NINJAR-lite 提供了许多功能在仅仅35x43mm的尺寸上</div>
+
 <!--  -->
 <div align="right">
 </br>
@@ -40,12 +62,11 @@
 </div>
 
 <div style="display:flex;">
-<div style="width:300px; margin-right:40px;">
-<img src="./assets/NINJAR_Resources.jpg" width=300 style="float:left;"/>
+<div style="width:400px; margin-right:40px;">
+<img src="./assets/NINJAR_Resources.jpg" width=400 style="float:left;"/>
 </div>
 
 <div style="float:right;">
-<div style="font-size:20px; text-align:center;">NINJAR-lite 提供了许多功能在仅仅35x43mm的尺寸上</div>
 <ul style="font-size:14px;">
 <li> USB OTG </li>
 <li> 滚轮旋转编码器 </li>
@@ -70,12 +91,12 @@
 </div>
 
 <div style="display:flex;">
-<div style="width:300px; margin-right:40px;">
-<img src="./assets/Core_Resources.jpg" width=300 style="float:left;"/>
+<div style="width:500px; margin-right:40px;">
+<img src="./assets/Core_Resources.jpg" width=500 />
 </div>
 
-<div style="float:right;">
-<div style="font-size:20px; text-align:center;">F1C100s 核心板</div>
+<div style="float:left;">
+<!-- <div style="font-size:20px; text-align:center;">F1C100s 核心板</div> -->
 <ul style="font-size:14px;">
 <li> F1C100s ARM9 @900MHz </li>
 <li> SIP 32/64MB DDR1 </li>
@@ -96,7 +117,7 @@
 
 <div style="display:flex;">
 <div style="width:300px; margin-right:40px;">
-<img src="./assets/screen.png" width=300 style="float:left;"/>
+<img src="./assets/screen.png" width=300 />
 </div>
 
 <div style="float:right;">
@@ -115,54 +136,30 @@
 </div>
 <!--  -->
 
-
 <!-- <div align="center">
 <img src="./assets/strcuture.gif" height="512">
 </div> -->
-
-</br>
-
-<div align="left" style="clear:both;">
-<h2>介绍</h2>
-</div>
-
-<!-- 有关项目的简短介绍 -->
-> <h2 align="center" ><strong>NINJAR (NINJAR Is Not Just A Reader)</strong></h2> 
-
-> <h3 align="center">设计为阅读器，但不止于此</h2>
-
-<h2 align="center">隆重的向大家介绍 NINJAR-lite</h2>
-
-<p align="center">正如我们演示的那样，通过外接无线键盘，它可以当作一台迷你终端来使用</p>
-
-<p align="center">通过开源的的设计资料，这个设备的形态可以被重新定义，这得益于模块化的设计</p>
-
-<p align="center">这个项目正处于开发阶段，我们正在尝试加入更多的创客功能</p>
-
-> <p align="center"><strong>NINJAR-lite</strong> 是基于全志 F1C100s 设计的精简版本</p>
 
 ## <h2 align="center">实机演示</h2>
 <!-- 快速简短的GIF玩法展示 -->
 
 <div align="center">
-<img src="./assets/first_preview.gif" height=512>
-<img src="./assets/second_preview.gif" height=512>
+<img src="./assets/first_preview.gif" width=1024>
+<img src="./assets/second_preview.gif" width=1024>
 </div>
-
-## <h2 align="center">设计</h2>
 
 <!-- 简短的设计过程 -->
 
 > <p align="center">器件以实物为准</p>
 
-## <h2 align="center">配置</h2>
+## <h2 align="center">技术规格</h2>
 
 <!-- 有关设备资源的表格 -->
 
 | 组件       | 型号                          |
 |------------|-------------------------------|
 | 系统       | linux、Debian 12             |
-| CPU        | Allwinner F1C100s/F1C200s ARM9 700MHz |
+| CPU        | Allwinner F1C100s/F1C200s ARM9 @900MHz |
 | 内存       | 32/64MB DDR1 256MHz              |
 | 存储       | 128/256MB SPI-Nand Flash              |
 | 屏幕       | 1.28英寸 16灰阶 OLED 128x128         |
@@ -186,7 +183,7 @@
 <p align="center">
 玩得开心！</br></br>
 干杯,</br>
-Zheng </br></br>
+zheng </br>
 
 </p>
 
@@ -197,5 +194,3 @@ Zheng </br></br>
 <h2 align="center">
     <a href="https://embeddedboys.github.io/">embeddedboys</a> 献上
 </h2>
-
-本文档由 [@mkdocs](https://www.mkdocs.org/) 强力驱动
